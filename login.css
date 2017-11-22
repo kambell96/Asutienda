@@ -8,7 +8,6 @@ html{
 }
 
 .contenedor {
-    
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -68,5 +67,5 @@ img{
     }
     img{
         width: 100%;
-}
+    }
 }
