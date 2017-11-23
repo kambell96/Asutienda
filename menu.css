@@ -84,6 +84,7 @@ a h2:hover span{
         font-size: 12px;
     }
     h2 span {
-        font-size: 18px;
+        font-size: 16px;
+        width: 80%;
     }
 }
