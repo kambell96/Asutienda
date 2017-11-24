@@ -12,7 +12,7 @@
 
 <body>
     <!--aqui empieza el menu despegable para mobile-->
-    <nav class="navbar">
+    <nav class="mobile-navbar-button">
         <div class="open-slide">
             <a href="#" onclick="openSlideMenu()">
                 <svg width="30" height="30">
@@ -23,7 +23,7 @@
             </a>
         </div>
     </nav>
-    <div id="side-menu" class="side-nav">
+    <div id="side-menu" class="mobile-navbar-items">
         <a href="#" class="btn-close" onclick="cloeSlideMenu()">&times;</a>
         <a href="#">Empresa:Asutienda</a>
         <a href="#">Usuario:</a>
@@ -34,17 +34,7 @@
             <i class="fa fa-sign-out" aria-hidden="true"></i>
             ::salir</a>
     </div>
-    <script>
-        function openSlideMenu() {
-            document.getElementById('side-menu').style.width
-                = '250px';
-        }
-        function cloeSlideMenu() {
-            document.getElementById('side-menu').style.width
-                = '0';
 
-        }
-    </script>
     <div class="contenedor">
         <nav class="menu-main">
             <div class="fondo-green">
@@ -166,6 +156,17 @@
             </div>
         </div>
     </div>
+    <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width
+                = '250px';
+        }
+        function cloeSlideMenu() {
+            document.getElementById('side-menu').style.width
+                = '0';
+
+        }
+    </script>
 </body>
 
 </html>

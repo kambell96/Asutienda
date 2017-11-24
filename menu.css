@@ -48,7 +48,7 @@ p.fondo-green,.fondo-white{
 .fondo-white p {
     position: relative;
     left: 300px;
-    margin: 10px
+    margin: 12px
 }
 .fondo-green p {
     margin: 10px
@@ -79,12 +79,13 @@ a .box-text:hover span{
     color: #d3e623;
 }
 /* aqui agrego la barra despegable para el mobile */
-.navbar{
-  background-color:  #46912F;
- 
-  height: 63px;
+.mobile-navbar-button{
+    background-color:  #46912F;
+    display: flex;
+    padding: 14px 16px;
+    height: 63px;
 }
-.side-nav{
+.mobile-navbar-items{
   height: 50%;
   width: 0;
   position: fixed;
@@ -94,13 +95,8 @@ a .box-text:hover span{
   padding-top: 10px;
   transition: all 0.5s;
 }
-.navbar a{
-  display: flex;
-  padding: 14px 16px;
 
-}   
-
-.side-nav a {
+.mobile-navbar-items a {
   padding: 8px 10px 10px 15px;
   text-decoration: none;
   font-size: 22px;
@@ -109,10 +105,10 @@ a .box-text:hover span{
   transition: 0.3s;
 }
 
-.side-nav a:hover{
+.mobile-navbar-items a:hover{
   color: #d3e623;
 }
-.side-nav .btn-close{
+.mobile-navbar-items .btn-close{
     position: absolute;
     bottom: 250px;
     right: 0px;
@@ -151,8 +147,11 @@ a .box-text:hover span{
   .open-slide{
     display: none;
   }
-  nav.navbar{
+   .mobile-navbar-button{
       display: none;
   }
+  .mobile-navbar-items {
+    display: none;
+}
 }
 
