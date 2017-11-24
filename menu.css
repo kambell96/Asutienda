@@ -39,40 +39,34 @@ nav p{
 .fondo{
     background-color:  #46912F;
 }
-.caja {
-    
+.box {
     margin: 10px;
 }
-/*.caja a.master{
-    font-size: 8pt;
-    background: transparent url(images/modules/tareas.png);
-}*/
 
-h2{
+.box-text{
     position: relative;
-    /* text-align: center; */
-    /* top: 2px; */
     bottom: 75px;
     left: 80px;
-    display: flex;
-    /* justify-content: unset; */
     width: 50%;
-    /* height: 50%; */
-    
 }
-h2 span{
+
+.box-text span{
     color: #46912F;
     font: bold 14px/20px Helvetica, Sans-Serif;
-    letter-spacing: 0px;
-    text-decoration: none;
+    font-size: 11px;
+    line-height: 1.4;
 }
+
 a {
     text-decoration: none;
 }
-a h2:hover span{
+
+a .box-text:hover span{
     color: #d3e623;
 }
+
 @media screen and (max-width:480px) {
+    
     .menu{
     width: 50%;
     height: 50%;
@@ -83,8 +77,11 @@ a h2:hover span{
     nav p{
         font-size: 12px;
     }
-    h2 span {
+    .box-text{
+       max-width: 45%;
+    }
+    .box-text span {
         font-size: 15px;
-        width: 80%;
+        
     }
 }
