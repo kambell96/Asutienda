@@ -11,14 +11,13 @@ html{
 
 
 .menu-main{
-    background-color: #EEEEFF;
     height: 45px;
     border-bottom: 1px solid white;
     display: flex;
     justify-content: space-between;
     
 }
-nav p{
+p.fondo-green,.fondo-white{
     font-family: arial;
     font-size: 10px;
     font-weight: bold;
@@ -26,6 +25,7 @@ nav p{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .container{
     margin-top: 40px;
@@ -36,8 +36,22 @@ nav p{
     display: flex;
     justify-content: center;
 }
-.fondo{
+.fondo-green{
     background-color:  #46912F;
+    width: 20%;
+    color: white;
+}
+.fondo-white{
+    background-color: #EEEEFF;
+    width: 80%;
+}
+.fondo-white p {
+    position: relative;
+    left: 300px;
+    margin: 10px
+}
+.fondo-green p {
+    margin: 10px
 }
 .box {
     margin: 10px;
@@ -64,11 +78,53 @@ a {
 a .box-text:hover span{
     color: #d3e623;
 }
+/* aqui agrego la barra despegable para el mobile */
+.navbar{
+  background-color:  #46912F;
+ 
+  height: 63px;
+}
+.side-nav{
+  height: 50%;
+  width: 0;
+  position: fixed;
+  left: 0;
+  background-color: #46912F;
+  opacity: 0.9;
+  padding-top: 10px;
+  transition: all 0.5s;
+}
+.navbar a{
+  display: flex;
+  padding: 14px 16px;
+
+}   
+
+.side-nav a {
+  padding: 8px 10px 10px 15px;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover{
+  color: #d3e623;
+}
+.side-nav .btn-close{
+    position: absolute;
+    bottom: 250px;
+    right: 0px;
+    font-size: 50px;
+    margin-left: 0px
+}
+/*aqui termina la barra despegable */
 
 @media screen and (max-width:480px) {
     
     .menu{
-    width: 50%;
+    width: 60%;
     height: 50%;
     margin: 0 auto;
     flex-direction: column-reverse;
@@ -84,4 +140,19 @@ a .box-text:hover span{
         font-size: 15px;
         
     }
+    .menu-main{
+        display: none;
+    }
+    .box a img {
+        width: 200px;
+    }
 }
+@media screen and (min-width:480px) {
+  .open-slide{
+    display: none;
+  }
+  nav.navbar{
+      display: none;
+  }
+}
+
