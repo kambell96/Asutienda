@@ -40,15 +40,17 @@ p.fondo-green,.fondo-white{
     background-color:  #46912F;
     width: 20%;
     color: white;
+    height: 40px;
 }
 .fondo-white{
     background-color: #EEEEFF;
     width: 80%;
+     height: 40px;
 }
 .fondo-white p {
     position: relative;
     left: 300px;
-    margin: 12px
+    margin: 11px;
 }
 .fondo-green p {
     margin: 10px
@@ -94,6 +96,7 @@ a .box-text:hover span{
   opacity: 0.9;
   padding-top: 10px;
   transition: all 0.5s;
+  overflow-x: hidden;
 }
 
 .mobile-navbar-items a {
