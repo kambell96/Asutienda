@@ -135,13 +135,15 @@ a .box-text:hover span{
 /*aqui termina la barra despegable */
 
 /* empiezo con los estilos de las barritas hr */
-
+div.line{
+     width: 85px;
+}
 hr {    
     border: 0;
     border-radius: 10px;
     height: 2px;
     box-shadow: inset 0px 0px 0px 3px #bae47a;
-    width: 85px;
+   
     padding: 4px;
 }
 /*aqui termina las barras hr */
@@ -171,6 +173,9 @@ hr {
     /*.box a img {
         width: 200px;
     }*/
+    .line{
+        max-width: 100%;
+    }
 }
 @media screen and (min-width:480px) {
   .open-slide{
