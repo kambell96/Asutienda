@@ -27,6 +27,7 @@ img{
     font-size: 20px;
     width: 150px;
     height: 48px;
+    cursor: pointer;
 }
 
 .input-text{

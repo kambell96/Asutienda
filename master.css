@@ -1,0 +1,89 @@
+html{
+    box-sizing: border-box
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-main{
+    background-color: #EEEEFF;
+}
+
+.font-green {
+    background-color: #46912F;
+    height: 30px;
+    width: 200px;
+}
+
+.details-user{
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.fondo-white {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fondo-white p {
+    padding: 0 10px;
+    position: relative;
+    bottom: 40px;
+}
+
+fieldset {
+    display: flex;
+    width: 350px;
+}
+
+form.user {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+/* aqui empieza los estilos de la barra d navegacion de la izquierda */
+.menu-left{
+    background-color: #46912F;
+    width: 50px;
+    position: relative;
+    bottom: 260px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+
+/* aqui termina la barra izquierda
+
+/* aqui empieza el footer */
+footer.menu-inferior{
+    display: flex;
+    justify-content: center;
+}
+
+.main-infe{
+    background-color: #fff;
+    border: 1px solid #222;
+    height: 45px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.footer-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menu a{
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+}
+/* aqui tarmina el footer */
