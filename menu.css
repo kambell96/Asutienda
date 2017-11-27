@@ -103,7 +103,7 @@ a .box-text:hover span{
     padding-top: 10px;
     transition: all 0.5s;
     overflow-x: hidden;
-    position: fixed;
+    position: absolute;
 }
 
 .mobile-navbar-items a {
@@ -135,16 +135,22 @@ a .box-text:hover span{
 /*aqui termina la barra despegable */
 
 /* empiezo con los estilos de las barritas hr */
-div.line{
-     width: 85px;
+div.line-color{
+    width: 86px;
+    background-color: #c9fc7e;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 25px;
+    border: 1px solid white;
     
 }
 hr {    
-   border: 0;
-    border-radius: 10px;
-    height: 2px;
-    box-shadow: inset 0px 0px 0px 3px #bae47a;
-    padding: 4px;
+    border: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 3px;
+    background: #ffffff;
+    margin: 5px;
 }
 /*aqui termina las barras hr */
 
@@ -174,6 +180,9 @@ hr {
         width: 200px;
     }*/
     .line{
+        max-width: 100%;
+    }
+    div.line-color{
         max-width: 100%;
     }
 }
