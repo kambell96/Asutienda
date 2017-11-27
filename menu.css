@@ -58,15 +58,16 @@ p.fondo-green,.fondo-white{
 }
 .box {
     margin: 10px;
+    background-color: transparent;
+    width: 150px;
+    border: solid 2px #dcfaaf;
+    display: flex
 }
 
-.box-text{
-    position: relative;
-    bottom: 75px;
-    left: 80px;
-    width: 50%;
+.modules {
+    width: 50px;
+    height: 25px;
 }
-
 .box-text span{
     color: #46912F;
     font: bold 14px/20px Helvetica, Sans-Serif;
@@ -75,7 +76,11 @@ p.fondo-green,.fondo-white{
 }
 
 a {
-    text-decoration: none;
+     text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 a .box-text:hover span{
@@ -126,14 +131,20 @@ a .box-text:hover span{
     align-items: baseline;
     padding: 0 5px 0 0;
 }
-/* empiezo con los estilos de las imagenes cortadas */
-img {
-    border: solid 1px #dcfaaf;
-}
-
-/*aqui termina las imagenes */
 
 /*aqui termina la barra despegable */
+
+/* empiezo con los estilos de las barritas hr */
+
+hr {    
+    border: 0;
+    border-radius: 10px;
+    height: 2px;
+    box-shadow: inset 0px 0px 0px 3px #bae47a;
+    width: 85px;
+    padding: 4px;
+}
+/*aqui termina las barras hr */
 
 @media screen and (max-width:480px) {
     
@@ -148,7 +159,7 @@ img {
         font-size: 12px;
     }
     .box-text{
-       max-width: 45%;
+       max-width: 50%;
     }
     .box-text span {
         font-size: 15px;
@@ -157,9 +168,9 @@ img {
     .menu-main{
         display: none;
     }
-    .box a img {
+    /*.box a img {
         width: 200px;
-    }
+    }*/
 }
 @media screen and (min-width:480px) {
   .open-slide{
