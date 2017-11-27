@@ -89,36 +89,50 @@ a .box-text:hover span{
     height: 63px;
 }
 .mobile-navbar-items{
-  height: 50%;
-  width: 0;
-  position: fixed;
-  left: 0;
-  background-color: #46912F;
-  opacity: 0.9;
-  padding-top: 10px;
-  transition: all 0.5s;
-  overflow-x: hidden;
+    height: 280px;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #46912F;
+    opacity: 0.9;
+    padding-top: 10px;
+    transition: all 0.5s;
+    overflow-x: hidden;
+    position: fixed;
 }
 
 .mobile-navbar-items a {
-  padding: 8px 10px 10px 15px;
-  text-decoration: none;
-  font-size: 22px;
-  color: white;
-  display: block;
-  transition: 0.3s;
+    padding: 0px 0px 10px 12px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    transition: 0.3s;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+    bottom: 30px;
 }
 
 .mobile-navbar-items a:hover{
   color: #d3e623;
 }
 .mobile-navbar-items .btn-close{
-    position: absolute;
-    bottom: 298px;
-    right: 0px;
+    top: 0px;
+    left: 190px;
     font-size: 50px;
-    margin-left: 0px
+    height: 50px;
+    width: 40px;
+    align-items: baseline;
+    padding: 0 5px 0 0;
 }
+/* empiezo con los estilos de las imagenes cortadas */
+img {
+    border: solid 1px #dcfaaf;
+}
+
+/*aqui termina las imagenes */
+
 /*aqui termina la barra despegable */
 
 @media screen and (max-width:480px) {
