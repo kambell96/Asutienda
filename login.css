@@ -21,19 +21,16 @@ img{
     display: block;
 }
 .boton{
-    background-color: #fff;
+    background-color: #ddd3d3;
     border-radius: 4px;
     border: 1px solid #ddd;
     font-size: 20px;
     width: 150px;
     height: 48px;
 }
-.boton:hover{
-    background-color: #f7f4f4;
-    transition: all 1.5s;
-}
+
 .input-text{
-    height: 18px;
+    height: 26px;
     color: #666;
     border: 1px solid #ddd;
     padding: 5px;
