@@ -141,7 +141,7 @@ div.line-color{
     background-color: #c9fc7e;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-    height: 25px;
+    height: 20px;
     border: 1px solid white;
     
 }
@@ -149,7 +149,7 @@ hr {
     border: 0;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-    height: 3px;
+    height: 2px;
     background: #ffffff;
     margin: 5px;
 }
