@@ -55,6 +55,16 @@ form.user {
 .icons{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.icons a{
+    background: transparent url(images/imgmaster/menubg.png);
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 4px;
+    margin-left: 0;
+    text-align: center;
 }
 
 /* aqui termina la barra izquierda
