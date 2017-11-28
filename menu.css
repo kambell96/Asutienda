@@ -9,7 +9,10 @@ html{
     padding: 0;
 }
 
-
+img{
+    height: 50px;
+    width: 50px;
+}
 .menu-main{
     height: 40px;
     border-bottom: 1px solid white;
@@ -73,7 +76,7 @@ p.fondo-green,.fondo-white{
     color: #46912F;
     font: bold 14px/20px Helvetica, Sans-Serif;
     font-size: 11px;
-    line-height: 1.4;
+    line-height: 2.4;
 }
 
 a{
@@ -113,7 +116,7 @@ a .box-text:hover span{
     color: white;
     display: flex;
     transition: 0.3s;
-    flex-direction: column;
+    flex-direction: row;
     width: 200px;
     position: relative;
     bottom: 30px;
@@ -136,12 +139,13 @@ a .box-text:hover span{
 
 /* empiezo con los estilos de las barritas hr */
 div.line-color{
-    width: 86px;
+    width: 90px;
     background-color: #c9fc7e;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     height: 20px;
     border: 1px solid white;
+    margin-top: 5px;
     
 }
 hr {    

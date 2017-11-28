@@ -9,6 +9,8 @@ html{
     padding: 10px;
     display: flex;
     justify-content: center;
+    min-width: 1200px;
+    min-height: 600px;
 }
 img{
     max-width: 300%;
@@ -21,8 +23,7 @@ img{
     display: block;
 }
 .boton-center {
-    display: flex;
-    justify-content: center;
+   text-align: center;
 }
 .boton{
     background-color: #ddd3d3;
@@ -35,6 +36,7 @@ img{
 }
 
 .input-text{
+    width: 169px;
     height: 26px;
     color: #666;
     border: 1px solid #ddd;

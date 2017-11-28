@@ -5,15 +5,24 @@ html{
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: arial;
+}
 .menu-main{
     background-color: #EEEEFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 .font-green {
     background-color: #46912F;
     height: 30px;
     width: 200px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
 }
 
 .details-user{
@@ -22,78 +31,88 @@ html{
     max-width: 50%;
 }
 
-.fondo-white {
+.sepa-p {
     display: flex;
-    justify-content: flex-end;
+    margin-right: 20px;
 }
 
-.fondo-white p {
-    padding: 0 10px;
-    position: relative;
-    bottom: 40px;
+.sepa-p p {
+    margin: 5px;
 }
-
-fieldset {
+/* aqui el cuadro del user */
+.user-details{
     display: flex;
-    width: 350px;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 
 form.user {
     display: flex;
-    justify-content: center;
+    margin: 15px;
+    max-width: 38%;
+    height: 170px;
+}
+label{
+    width: 10%;
+    margin: 2px
+}
+.box-input{
     width: 30%;
+    margin: 5px;
 }
+.title-user {
+    margin: 15px;
+    color: #46912F;
+}
+label.flex {
+    flex: 0 1 14%;
+    margin: 10px;
+}
+/* aqui termina el cuadro del user */
 
-/* aqui empieza los estilos de la barra d navegacion de la izquierda */
-.menu-left{
+/* aqui empieza los estilos del sub menu */
+.sub-container{
     background-color: #46912F;
-    width: 50px;
-    position: relative;
-    bottom: 260px;
-}
-
-.icons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.icons a{
-    background: transparent url(images/imgmaster/menubg.png);
-    width: 30px;
-    height: 30px;
-    padding: 0px;
-    margin: 4px;
-    margin-left: 0;
-    text-align: center;
-}
-
-/* aqui termina la barra izquierda
-
-/* aqui empieza el footer */
-footer.menu-inferior{
+    height: 45px;
     display: flex;
     justify-content: center;
+ 
 }
 
-.main-infe{
-    background-color: #fff;
-    border: 1px solid #222;
-    height: 25px;
-    border-bottom: 1px solid white;
+.sub-menu{
     display: flex;
     justify-content: space-between;
+    align-content: center;
     width: 50%;
+    flex: 0 1 100%
 }
-.footer-menu {
+
+.menu {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer-menu a{
+.menu:hover{
+    background-color: #8fd678;
+}
+
+.menu a{
     text-decoration: none;
     font-size: 11px;
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
 }
-/* aqui tarmina el footer */
+
+/* aqui los estilos del menu despegable */
+ ul.menu-des{
+    list-style: none;
+    display: none;
+    background-color: #46912F;
+ }
+ ul.menu-des  a:hover  {
+     display: block;
+ }
+/* aqui termina el menu despegable */
+
+/* aqui termina el sub menu */
