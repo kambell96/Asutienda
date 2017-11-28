@@ -61,7 +61,8 @@ p.fondo-green,.fondo-white{
     background-color: transparent;
     width: 150px;
     border: solid 2px #dcfaaf;
-    display: flex
+    display: flex;
+    justify-content: center;
 }
 
 .modules {
