@@ -66,6 +66,9 @@ p.fondo-green,.fondo-white{
     border: solid 2px #dcfaaf;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    cursor: pointer;
 }
 
 .modules {
@@ -76,17 +79,14 @@ p.fondo-green,.fondo-white{
     color: #46912F;
     font: bold 14px/20px Helvetica, Sans-Serif;
     font-size: 11px;
-    line-height: 2.4;
+    line-height: 1.4;
 }
 
-a{
+/*a{
     text-decoration: none;
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-}
+}*/
 
-a .box-text:hover span{
+.box-text:hover span{
     color: #d3e623;
 }
 /* aqui agrego la barra despegable para el mobile */
@@ -139,7 +139,7 @@ a .box-text:hover span{
 
 /* empiezo con los estilos de las barritas hr */
 div.line-color{
-    width: 90px;
+    width: 95px;
     background-color: #c9fc7e;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
