@@ -48,7 +48,7 @@ body{
 form.user {
     display: flex;
     margin: 15px;
-    max-width: 38%;
+    max-width: 570px;
 }
 label{
     width: 10%;
@@ -99,7 +99,7 @@ label.flex {
     position: absolute;
     background-color: #46912F;
     display: none;
-    top: 24%;
+    top: 108px;
     
 }
 .sub-menu-items ul li a:hover + ul,.sub-menu-items ul li ul:hover{
