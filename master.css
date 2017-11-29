@@ -67,52 +67,43 @@ label.flex {
 }
 /* aqui termina el cuadro del user */
 
-/* aqui empieza los estilos del sub menu */
-.sub-menu-container{
-    background-color: #46912F;
-    height: 45px;
-    display: flex;
+/* aqui empieza los estilos del sub menu  y su despliegue*/
+.sub-menu-items {
+    background: #46912F;
+    
+}
+.sub-menu-items ul {
     justify-content: center;
- 
-}
-
-.sub-menu{
     display: flex;
-    width: 100%;
-    flex-wrap: wrap;
 }
-
-.sub-menu-item {
-    flex: 1;
+.sub-menu-items li{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-.sub-menu-item:hover{
-    background-color: #8fd678;
-}
-
-.sub-menu-item a{
-    text-decoration: none;
-    font-size: 11px;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-/* aqui los estilos del menu despegable */
- ul.sub-menu-list{
     list-style: none;
-    display: none; 
-    background-color: #46912F;
-    position: absolute;
-    top: 45px;
-    width: 160px;
-    height: 240px;
- }
- .sub-menu-item  li a:hover  {
-     display: block;
- }
-/* aqui termina el menu despegable */
+   
+}
+.sub-menu-items a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.sub-menu-items li  a {
+    padding: 20px;
+    width: 80px;
+}
 
-/* aqui termina el sub menu */
+.sub-menu-items a:hover{
+    background: #5db93f;
+}
+.sub-menu-items ul  ul  {
+    position: absolute;
+    background-color: #46912F;
+    display: none;
+    top: 24%;
+    
+}
+.sub-menu-items ul li a:hover + ul,.sub-menu-items ul li ul:hover{
+    display: block;
+}
+
+/* aqui termina el sub menu y su depliegue */
