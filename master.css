@@ -42,7 +42,6 @@ body{
 /* aqui el cuadro del user */
 .user-details{
     display: flex;
-    max-width: 100%;
     flex-wrap: wrap;
 }
 
@@ -50,11 +49,9 @@ form.user {
     display: flex;
     margin: 15px;
     max-width: 38%;
-    height: 170px;
 }
 label{
     width: 10%;
-    margin: 2px
 }
 .box-input{
     width: 30%;
@@ -71,7 +68,7 @@ label.flex {
 /* aqui termina el cuadro del user */
 
 /* aqui empieza los estilos del sub menu */
-.sub-container{
+.sub-menu-container{
     background-color: #46912F;
     height: 45px;
     display: flex;
@@ -81,23 +78,22 @@ label.flex {
 
 .sub-menu{
     display: flex;
-    justify-content: space-between;
-    align-content: center;
-    width: 50%;
-    flex: 0 1 100%
+    width: 100%;
+    flex-wrap: wrap;
 }
 
-.menu {
+.sub-menu-item {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-.menu:hover{
+.sub-menu-item:hover{
     background-color: #8fd678;
 }
 
-.menu a{
+.sub-menu-item a{
     text-decoration: none;
     font-size: 11px;
     font-weight: bold;
@@ -105,12 +101,16 @@ label.flex {
 }
 
 /* aqui los estilos del menu despegable */
- ul.menu-des{
+ ul.sub-menu-list{
     list-style: none;
-    display: none;
+    display: none; 
     background-color: #46912F;
+    position: absolute;
+    top: 45px;
+    width: 160px;
+    height: 240px;
  }
- ul.menu-des  a:hover  {
+ .sub-menu-item  li a:hover  {
      display: block;
  }
 /* aqui termina el menu despegable */
