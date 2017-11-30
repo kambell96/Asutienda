@@ -1,0 +1,169 @@
+html{
+    box-sizing: border-box
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-module {
+    width: 40%;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+
+.container{
+    margin-top: 40px;
+}
+
+.box {
+    padding-top:5px; 
+    margin: 10px;
+    background-color: transparent;
+    width: 150px;
+    border: solid 2px #dcfaaf;
+    display: flex;
+    cursor: pointer;
+}
+
+.modules {
+    width: 50px;
+    height: 25px;
+}
+.box-text{
+    width: 60%;
+
+}
+.box-text span{
+    color: #46912F;
+    font: bold 14px/20px Helvetica, Sans-Serif;
+    font-size: 11px;
+    line-height: 1.4;
+}
+.span-box {
+    padding-right: 1px;
+}
+/*a{
+    text-decoration: none;
+}*/
+
+.box-text:hover span{
+    color: #d3e623;
+}
+/* aqui agrego la barra despegable para el mobile */
+.mobile-navbar-button{
+    background-color:  #46912F;
+    display: flex;
+    padding: 14px 16px;
+    height: 63px;
+}
+.mobile-navbar-items{
+    height: 280px;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #46912F;
+    opacity: 0.9;
+    padding-top: 10px;
+    transition: all 0.5s;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.mobile-navbar-items a {
+    padding: 0px 0px 10px 12px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    transition: 0.3s;
+    flex-direction: row;
+    width: 200px;
+    position: relative;
+    bottom: 30px;
+}
+
+.mobile-navbar-items a:hover{
+  color: #d3e623;
+}
+.mobile-navbar-items .btn-close{
+    top: 0px;
+    left: 190px;
+    font-size: 50px;
+    height: 50px;
+    width: 40px;
+    align-items: baseline;
+    padding: 0 5px 0 10px;
+}
+
+/*aqui termina la barra despegable */
+
+/* empiezo con los estilos de las barritas hr */
+div.line-color{
+    width: 85px;
+    background-color: #c9fc7e;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 20px;
+    border: 1px solid white;
+    margin-top: 5px;
+    
+}
+hr {    
+    border: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 2px;
+    background: #ffffff;
+    margin: 5px;
+}
+/*aqui termina las barras hr */
+
+@media screen and (max-width:480px) {
+    
+    .menu{
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    /**display: grid; usarla para responsive es muy efectivo */
+    }
+    nav p{
+        font-size: 12px;
+    }
+    .box-text{
+       max-width: 50%;
+    }
+    .box-text span {
+        font-size: 15px;
+        
+    }
+    .menu-main{
+        display: none;
+    }
+    /*.box a img {
+        width: 200px;
+    }*/
+    .line{
+        max-width: 100%;
+    }
+    div.line-color{
+        max-width: 100%;
+    }
+}
+@media screen and (min-width:480px) {
+  .open-slide{
+    display: none;
+  }
+   .mobile-navbar-button{
+      display: none;
+  }
+  .mobile-navbar-items {
+    display: none;
+}
+}
+

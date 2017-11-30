@@ -1,0 +1,44 @@
+.menu-main{
+    height: 40px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+}
+p.fondo-green,.fondo-white{
+    font-family: arial;
+    font-size: 10px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.menu {
+    margin: 0 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.fondo-green{
+    background-color:  #46912F;
+    width: 20%;
+    color: white;
+    height: 40px;
+}
+.fondo-white{
+    background-color: #EEEEFF;
+    width: 80%;
+     height: 40px;
+}
+.fondo-white p {
+    position: relative;
+    left: 300px;
+    margin: 11px;
+    font-size: 11px;
+}
+.fondo-green p {
+    margin: 10px
+}

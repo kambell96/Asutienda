@@ -1,44 +1,5 @@
-html{
-    box-sizing: border-box
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: arial;
-}
-.menu-main{
-    background-color: #EEEEFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 20px;
-}
 
-.font-green {
-    background-color: #46912F;
-    height: 30px;
-    width: 200px;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-}
-
-.details-user{
-    display: flex;
-    justify-content: center;
-    max-width: 50%;
-}
-
-.sepa-p {
-    display: flex;
-    margin-right: 20px;
-}
-
-.sepa-p p {
-    margin: 5px;
-}/* aqui empieza los estilos del sub menu  y su despliegue*/
+/* aqui empieza los estilos del sub menu  y su despliegue*/
     .sub-menu-container {
         background-color: #46912F;
         display: flex;
