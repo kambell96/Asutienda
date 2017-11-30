@@ -68,7 +68,44 @@ label.flex {
 /* aqui termina el cuadro del user */
 
 /* aqui empieza los estilos del sub menu  y su despliegue*/
-.sub-menu-items {
+    .sub-menu-container {
+        background-color: #46912F;
+        display: flex;
+    }
+    .sub-menu-item {
+        padding: 15px;
+        position: relative;
+    }
+     .sub-menu-list {
+        display: none;
+        position: absolute;
+        top: 48px;
+        left: 0;
+    }
+       .sub-menu-item:hover .sub-menu-list {
+        display: flex;
+        flex-direction: column;
+        background: #46912F;
+    }
+      .sub-menu-list a {
+        text-decoration: none;
+        padding: 10px 0 0;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .sub-menu-item:hover {
+        background-color: #3fb83a;
+    }
+
+    .sub-menu-list a:hover {
+        background-color: #3fb83a;
+    }
+    .sub-menu-title{
+        text-decoration: none;
+        color: #ffffff;
+    }
+/*.sub-menu-items {
     background: #46912F;
     
 }
@@ -77,22 +114,21 @@ label.flex {
     display: flex;
 }
 .sub-menu-items li{
-    display: flex;
     list-style: none;
+    width: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
    
 }
 .sub-menu-items a{
     color:white;
     text-decoration: none;
-    text-align: center;
-    
-}
-.sub-menu-items li  a {
-    padding: 20px;
-    width: 80px;
+   
 }
 
-.sub-menu-items a:hover{
+
+.sub-menu-items ul li:hover{
     background: #5db93f;
 }
 .sub-menu-items ul  ul  {
@@ -100,10 +136,10 @@ label.flex {
     background-color: #46912F;
     display: none;
     top: 108px;
-    
+    padding: 0;
 }
-.sub-menu-items ul li a:hover + ul,.sub-menu-items ul li ul:hover{
+.sub-menu-items li:hover ul{
     display: block;
 }
-
+*/
 /* aqui termina el sub menu y su depliegue */

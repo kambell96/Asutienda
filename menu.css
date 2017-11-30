@@ -8,7 +8,9 @@ html{
     margin: 0;
     padding: 0;
 }
-
+.img-module {
+    width: 40%;
+}
 img{
     height: 50px;
     width: 50px;
@@ -60,14 +62,12 @@ p.fondo-green,.fondo-white{
     margin: 10px
 }
 .box {
+    padding-top:5px; 
     margin: 10px;
     background-color: transparent;
     width: 150px;
     border: solid 2px #dcfaaf;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
     cursor: pointer;
 }
 
@@ -75,13 +75,19 @@ p.fondo-green,.fondo-white{
     width: 50px;
     height: 25px;
 }
+.box-text{
+    width: 60%;
+
+}
 .box-text span{
     color: #46912F;
     font: bold 14px/20px Helvetica, Sans-Serif;
     font-size: 11px;
     line-height: 1.4;
 }
-
+.span-box {
+    padding-right: 1px;
+}
 /*a{
     text-decoration: none;
 }*/
@@ -139,7 +145,7 @@ p.fondo-green,.fondo-white{
 
 /* empiezo con los estilos de las barritas hr */
 div.line-color{
-    width: 95px;
+    width: 85px;
     background-color: #c9fc7e;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;

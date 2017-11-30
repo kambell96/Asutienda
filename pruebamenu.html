@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background: rebeccapurple;
+    }
+
+    .sub-menu-container {
+        background-color: green;
+        display: flex;
+    }
+
+    .sub-menu-item {
+        padding: 15px;
+        position: relative;
+    }
+
+    .sub-menu-list {
+        display: none;
+        position: absolute;
+        top: 48px;
+        left: 0;
+    }
+
+    .sub-menu-item:hover .sub-menu-list {
+        display: flex;
+        flex-direction: column;
+        background: greenyellow;
+    }
+
+    .sub-menu-list a {
+        text-decoration: none;
+        padding: 10px 0 0;
+    }
+
+    .sub-menu-item:hover {
+        background-color: rgb(80, 28, 28);
+    }
+
+    .sub-menu-list a:hover {
+        background-color: rgb(80, 28, 28);
+    }
+</style>
+
+<body>
+    <div class="sub-menu-container">
+        <div class="sub-menu-item">
+            <a href="#" class="sub-menu-title">Maestro1</a>
+            <div class="sub-menu-list">
+                <a href="#">Usuario</a>
+                <a href="#">Productos</a>
+                <a href="#">Gastos</a>
+                <a href="#">Transportador</a>
+                <a href="#">Entidades</a>
+            </div>
+        </div>
+        <div class="sub-menu-item">
+            <a href="#" class="sub-menu-title">Maestro2</a>
+            <div class="sub-menu-list">
+                <a href="#">Usuario</a>
+                <a href="#">Productos</a>
+                <a href="#">Gastos</a>
+                <a href="#">Transportador</a>
+                <a href="#">Entidades</a>
+            </div>
+        </div>
+        <div class="sub-menu-item">
+            <a href="#" class="sub-menu-title">Maestro3</a>
+            <div class="sub-menu-list">
+                <a href="#">Usuario</a>
+                <a href="#">Productos</a>
+                <a href="#">Gastos</a>
+                <a href="#">Transportador</a>
+                <a href="#">Entidades</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
