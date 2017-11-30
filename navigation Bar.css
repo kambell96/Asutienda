@@ -1,0 +1,85 @@
+html{
+    box-sizing: border-box
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+.menu-main{
+    background-color: #EEEEFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.font-green {
+    background-color: #46912F;
+    height: 30px;
+    width: 200px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.details-user{
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.sepa-p {
+    display: flex;
+    margin-right: 20px;
+}
+
+.sepa-p p {
+    margin: 5px;
+}/* aqui empieza los estilos del sub menu  y su despliegue*/
+    .sub-menu-container {
+        background-color: #46912F;
+        display: flex;
+        justify-content: center;
+    }
+    .sub-menu-item {
+        padding: 15px;
+        position: relative;
+        min-width: 76px;
+    }
+     .sub-menu-list {
+        display: none;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        right: 0;
+        background-color: #46912F;
+    }
+    .sub-menu-item:hover .sub-menu-list {
+        display: flex;
+        flex-direction: column;
+        
+    }
+      .sub-menu-list a {
+        text-decoration: none;
+        padding: 10px 10px 10px;
+        color: #ffffff;
+        text-align: left;
+       
+    }
+    
+    .sub-menu-item:hover {
+        background-color: #3fb83a;
+    }
+
+     .sub-menu-list a:hover {
+        background-color: #3fb83a;
+    }
+    .sub-menu-title{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+/* aqui termina el sub menu y su depliegue */
