@@ -71,34 +71,39 @@ label.flex {
     .sub-menu-container {
         background-color: #46912F;
         display: flex;
+        justify-content: center;
     }
     .sub-menu-item {
         padding: 15px;
         position: relative;
+        min-width: 76px;
     }
      .sub-menu-list {
         display: none;
         position: absolute;
         top: 48px;
         left: 0;
+        right: 0;
+        background-color: #46912F;
     }
-       .sub-menu-item:hover .sub-menu-list {
+    .sub-menu-item:hover .sub-menu-list {
         display: flex;
         flex-direction: column;
-        background: #46912F;
+        
     }
       .sub-menu-list a {
         text-decoration: none;
-        padding: 10px 0 0;
+        padding: 10px 10px 10px;
         color: #ffffff;
-        text-align: center;
+        text-align: left;
+       
     }
     
     .sub-menu-item:hover {
         background-color: #3fb83a;
     }
 
-    .sub-menu-list a:hover {
+     .sub-menu-list a:hover {
         background-color: #3fb83a;
     }
     .sub-menu-title{
