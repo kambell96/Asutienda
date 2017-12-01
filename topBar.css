@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #EEEEFF;
+    padding-bottom: 20px;
     
 }
 p.fondo-green,.fondo-white{
@@ -16,7 +17,6 @@ p.fondo-green,.fondo-white{
     align-items: center;
    
 }
-
 
 .fondo-green{
     background-color:  #46912F;
