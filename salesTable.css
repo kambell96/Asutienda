@@ -5,19 +5,26 @@
 
 .list-container{
     display: flex;
+    background: gray;
+    margin: 10px;
+    font-size: 8pt
 }
 .list-items {
     background-color: #EEEEFF;
-    width: 25%;
+    flex: auto;
     text-align: center;
-    border: 0.1px solid #d2d2d2;
+    
 }
 .columna {
     border: 0.1px solid #d2d2d2;
     background-color: #ffffff;
     padding: 4px;
-    height: 40px;
+    height: 20px;
 }
 .title-list {
-    margin: 4px;
+    padding: 5px;
+    background: #EEEEFF;
+    border: 0.1px solid #d2d2d2;
+    height: 24px;
+    font-weight: bold;
 }

@@ -1,13 +1,4 @@
-html{
-    box-sizing: border-box
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: arial;
-}
+
 
 /* aqui el cuadro del user */
 .details-user{

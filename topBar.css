@@ -3,7 +3,7 @@
     border-bottom: 1px solid white;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    background-color: #EEEEFF;
     
 }
 p.fondo-green,.fondo-white{
@@ -17,16 +17,11 @@ p.fondo-green,.fondo-white{
    
 }
 
+
 .fondo-green{
     background-color:  #46912F;
     width: 20%;
     color: white;
-    height: 40px;
-}
-.fondo-white{
-    background-color: #EEEEFF;
-    width: 80%;
-     height: 40px;
 }
 .fondo-white p {
     position: relative;
