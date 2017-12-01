@@ -16,12 +16,7 @@ p.fondo-green,.fondo-white{
     align-items: center;
    
 }
-.menu {
-    margin: 0 10px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-}
+
 .fondo-green{
     background-color:  #46912F;
     width: 20%;

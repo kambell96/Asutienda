@@ -1,13 +1,4 @@
-html{
-    box-sizing: border-box
-}
-*,*:before,*:after{
-    box-sizing: inherit;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .img-module {
     width: 40%;
 }
@@ -18,6 +9,12 @@ img{
 
 .container{
     margin-top: 40px;
+}
+.menu {
+    margin: 0 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .box {
@@ -127,7 +124,7 @@ hr {
     
     .menu{
     width: 60%;
-    height: 50%;
+    height: auto;
     margin: 0 auto;
     flex-direction: column;
     /**display: grid; usarla para responsive es muy efectivo */
@@ -142,7 +139,7 @@ hr {
         font-size: 15px;
         
     }
-    .menu-main{
+    .contenedor{
         display: none;
     }
     /*.box a img {
@@ -164,6 +161,7 @@ hr {
   }
   .mobile-navbar-items {
     display: none;
-}
+    }
+    
 }
 

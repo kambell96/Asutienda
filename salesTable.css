@@ -1,0 +1,23 @@
+
+.sub-menu-container {
+    margin-bottom: 20px;
+}
+
+.list-container{
+    display: flex;
+}
+.list-items {
+    background-color: #EEEEFF;
+    width: 25%;
+    text-align: center;
+    border: 0.1px solid #d2d2d2;
+}
+.columna {
+    border: 0.1px solid #d2d2d2;
+    background-color: #ffffff;
+    padding: 4px;
+    height: 40px;
+}
+.title-list {
+    margin: 4px;
+}
