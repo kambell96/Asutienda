@@ -1,4 +1,6 @@
-
+nav.menu-main {
+    padding-bottom: 0;
+}   
 .img-module {
     width: 40%;
 }
@@ -123,7 +125,7 @@ hr {
 @media screen and (max-width:480px) {
     
     .menu{
-    width: 60%;
+    width: 63%;
     height: auto;
     margin: 0 auto;
     flex-direction: column;
@@ -134,22 +136,33 @@ hr {
     }
     .box-text{
        max-width: 50%;
+       padding-top: 10px;
     }
     .box-text span {
-        font-size: 15px;
+        font-size: 16px;
         
     }
     .contenedor{
         display: none;
     }
-    /*.box a img {
-        width: 200px;
-    }*/
+    .img-module {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     img {
+        width: 70px;
+        height: 70px;
+    }
     .line{
         max-width: 100%;
     }
     div.line-color{
-        max-width: 100%;
+        width: 118%;
+    }
+    .box {
+    width: 200px;
+    height: 100px;
     }
 }
 @media screen and (min-width:480px) {
