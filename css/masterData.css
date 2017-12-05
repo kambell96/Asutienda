@@ -1,5 +1,4 @@
 
-
 /* aqui el cuadro del user */
 .details-user{
     display: flex;
@@ -24,12 +23,6 @@ form.user {
 select.input-text {
     width: 181px;
     height: 36px;
-}
-
-.box-input{
-    width: 25%;
-    margin: 4px;
-    margin-right: 10px;
 }
 
 .title-user {
