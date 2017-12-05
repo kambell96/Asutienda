@@ -5,28 +5,27 @@
     justify-content: space-between;
     background-color: #EEEEFF;
     padding-bottom: 14px;
-    
+    font-size: 12px;
 }
 
 p.fondo-green,.fondo-white{
     font-family: arial;
-    font-size: 10px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .top-bar-green-background{
     background-color:  #46912F;
     width: 20%;
     color: white;
+     padding: 10px 0 0 10px;
 }
 
 .fondo-white p {
     margin: 11px;
-    font-size: 11px;
+    padding: 10px 10px 0 0;
 }
 
 .fondo-green p {

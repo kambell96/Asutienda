@@ -4,6 +4,7 @@
         background-color: #46912F;
         display: flex;
         justify-content: center;
+        font-size: 12px;
     }
     
     .navigation-bar-row {
@@ -15,7 +16,7 @@
      .navigation-bar-sub-menu {
         display: none;
         position: absolute;
-        top: 48px;
+        top: 44px;
         left: 0;
         right: 0;
         background-color: #46912F;

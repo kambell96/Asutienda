@@ -6,15 +6,15 @@
     max-width: 50%;
 }
 
-.user-details{
+.user-details,.filters-container{
     display: flex;
 }
 
-.user-details-box {
-    margin: 0 20px 20px 0;
+.user-details-box,.filters-details-box {
+    margin: 0 20px 0 0;
 }
 
-form.user {
+form.user,.filters {
     display: flex;
     margin: 15px 0;
     max-width: 570px;
@@ -25,13 +25,12 @@ select.input-text {
     height: 36px;
 }
 
-.title-user {
-    margin: 15px 0;
-    color: #46912F;
+.module-content-container {
+    margin: 0 15px;
 }
 
-.info-user {
-    margin: 0 15px;
+.label-space{
+    padding: 8px 0 5px 0;
 }
 /* aqui termina el cuadro del user */
 
