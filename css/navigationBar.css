@@ -1,16 +1,18 @@
 
 /* aqui empieza los estilos del sub menu  y su despliegue*/
-    .sub-menu-container {
+    .navigation-bar-container {
         background-color: #46912F;
         display: flex;
         justify-content: center;
     }
-    .sub-menu-item {
+    
+    .navigation-bar-row {
         padding: 15px;
         position: relative;
-        min-width: 76px;
+        min-width: 80px;
     }
-     .sub-menu-list {
+
+     .navigation-bar-sub-menu {
         display: none;
         position: absolute;
         top: 48px;
@@ -18,27 +20,30 @@
         right: 0;
         background-color: #46912F;
     }
-    .sub-menu-item:hover .sub-menu-list {
+
+    .navigation-bar-row:hover .navigation-bar-sub-menu {
         display: flex;
         flex-direction: column;
         
     }
-      .sub-menu-list a {
+
+      .navigation-bar-sub-menu a {
         text-decoration: none;
-        padding: 10px 10px 10px;
+        padding: 10px 8px 10px;
         color: #ffffff;
         text-align: left;
        
     }
     
-    .sub-menu-item:hover {
+    .navigation-bar-row:hover {
         background-color: #3fb83a;
     }
 
-     .sub-menu-list a:hover {
+     .navigation-bar-sub-menu a:hover {
         background-color: #3fb83a;
     }
-    .sub-menu-title{
+
+    .navigation-bar-title{
         text-decoration: none;
         color: #ffffff;
     }

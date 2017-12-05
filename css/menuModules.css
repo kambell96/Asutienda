@@ -1,0 +1,57 @@
+nav.menu-main {
+    padding-bottom: 0;
+} 
+  
+.img-module {
+    width: 40%;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+.menu-modules-container {
+    margin-top: 40px;
+}
+
+.menu-modules-row {
+    margin: 0 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-modules-box {
+    padding-top:5px; 
+    margin: 10px;
+    background-color: transparent;
+    width: 150px;
+    border: solid 2px #dcfaaf;
+    display: flex;
+    cursor: pointer;
+}
+
+.modules {
+    width: 50px;
+    height: 25px;
+}
+
+.box-text{
+    width: 60%;
+}
+
+.box-text span{
+    color: #46912F;
+    font: bold 14px/20px Helvetica, Sans-Serif;
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+.span-box {
+    padding-right: 1px;
+}
+
+.box-text:hover span{
+    color: #d3e623;
+}

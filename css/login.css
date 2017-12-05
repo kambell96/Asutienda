@@ -1,0 +1,67 @@
+html{
+    box-sizing: border-box
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    min-width: 1200px;
+    min-height: 600px;
+}
+
+img{
+    max-width: 300%;
+}
+
+.mar-top-15{
+    margin-top: 25px;
+}
+
+.login-text {
+    font-size: 25px;
+    display: block;
+}
+
+.boton-center {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 480px) 
+{
+    .contenedor {
+        min-width: 100px;
+        padding: 0 ;
+    }
+
+    .login-text {
+        font-size: 40px;
+        display: block;
+    }
+
+    .mar-top-15{
+        margin-top: 30px;
+    }
+
+    .boton{
+        background-color: rgb(221, 211, 211);
+        border-radius: 5px;
+        border: 1px solid rgba(223, 207, 207, 0);
+        font-size: 25px;
+    }
+    
+    .input-text{
+        height: 30px;
+    }
+
+    img{
+        width: 100%;
+    }
+
+}

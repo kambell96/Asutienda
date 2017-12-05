@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="menuModules.css">
+    <link rel="stylesheet" href="css/menuModules.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="topBar.css">
-    <link rel="stylesheet" href="resetStyles.css">
+    <link rel="stylesheet" href="css/topBar.css">
+    <link rel="stylesheet" href="css/resetStyles.css">
+    <link rel="stylesheet" href="css/menuMobile.css">
+    <script type="text/javascript" src="javascript/menuMobile.js"></script>
     <title>AsutiendaMenuIncio</title>
 </head>
 
@@ -37,30 +39,29 @@
             ::salir</a>
     </div>
 
-    <div class="contenedor">
-        <nav class="menu-main">
-            <div class="fondo-green">
-                <p>::Panel de control::</p>
+
+    <div class="top-bar-container">
+        <div class="top-bar-green-background">
+            <p>::Panel de control::</p>
+        </div>
+        <div class="fondo-white">
+            <p>Empresa:Asutienda</p>
+            <p>Usuario:</p>
+            <div class="top-bar-icon">
+                <img src="images/topBarimg/help.png" alt="">
             </div>
-            <div class="fondo-white">
-                <p>Empresa:Asutienda</p>
-                <p>Usuario:</p>
-                <p>
-                    <a href="#">
-                        <i class="fa fa-question-circle" aria-hidden="true"></i>
-                    </a>
-                    ayuda</p>
-                <p>
-                    <a href="#">
-                        <i class="fa fa-sign-out" aria-hidden="true"></i>
-                    </a>::salir</p>
+            <p>ayuda</p>
+            <div class="top-bar-icon">
+                <img src="images/topBarimg/out.png" alt="">
             </div>
-        </nav>
+            <p>::salir</p>
+        </div>
     </div>
+
     <!--aqui termina el menu para mobile-->
-    <div class="container">
-        <div class="menu">
-            <div class="box">
+    <div class="menu-modules-container">
+        <div class="menu-modules-row">
+            <div class="menu-modules-box">
                 <div class="img-module">
                     <img src="images/modules/config.png" alt="">
                 </div>
@@ -77,7 +78,7 @@
                 </div>
 
             </div>
-            <div class="box">
+            <div class="menu-modules-box">
                 <div class="img-module">
                     <img src="images/modules/purchase.png" alt="">
                 </div>
@@ -94,7 +95,7 @@
                 </div>
 
             </div>
-            <div class="box">
+            <div class="menu-modules-box">
                 <div class="img-module">
                     <img src="images/modules/inventario.png" alt="">
                 </div>
@@ -112,8 +113,8 @@
 
             </div>
         </div>
-        <div class="menu">
-            <div class="box">
+        <div class="menu-modules-row">
+            <div class="menu-modules-box">
                 <div class="img-module">
                     <img src="images/modules/recaudos.png" alt="">
                 </div>
@@ -130,7 +131,7 @@
                 </div>
 
             </div>
-            <div class="box">
+            <div class="menu-modules-box">
                 <div class="img-module">
                     <img src="images/modules/cargue.png" alt="">
                 </div>
@@ -147,7 +148,7 @@
                 </div>
 
             </div>
-            <div class="box">
+            <div class="menu-modules-box">
                 <div class="img-module">
                     <img src="images/modules/cartera.png" alt="">
                 </div>
@@ -165,8 +166,8 @@
 
             </div>
         </div>
-        <div class="menu">
-            <div class="box">
+        <div class="menu-modules-row">
+            <div class="menu-modules-box">
                 <div class="img-module">
                     <img src="images/modules/tareas.png" alt="">
                 </div>
@@ -183,7 +184,7 @@
                 </div>
 
             </div>
-            <div class="box">
+            <div class="menu-modules-box">
                 <div class="img-module">
                     <img src="images/modules/cuadre.png" alt="">
                 </div>
@@ -200,7 +201,7 @@
                 </div>
 
             </div>
-            <div class="box">
+            <div class="menu-modules-box">
                 <div class="img-module">
                     <img src="images/modules/garantias.png" alt="">
                 </div>
@@ -218,8 +219,8 @@
 
             </div>
         </div>
-        <div class="menu">
-            <div class="box">
+        <div class="menu-modules-row">
+            <div class="menu-modules-box">
                 <div class="img-module">
                     <img src="images/modules/prestamos.png" alt="">
                 </div>
@@ -236,7 +237,7 @@
                 </div>
 
             </div>
-            <div class="box">
+            <div class="menu-modules-box">
                 <div class="img-module">
                     <img src="images/modules/restore.png" alt="">
                 </div>
@@ -255,17 +256,7 @@
             </div>
         </div>
     </div>
-    <script>
-        function openSlideMenu() {
-            document.getElementById('side-menu').style.width
-                = '250px';
-        }
-        function cloeSlideMenu() {
-            document.getElementById('side-menu').style.width
-                = '0';
 
-        }
-    </script>
 </body>
 
 </html>

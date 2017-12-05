@@ -5,46 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="navigationBar.css">
+    <link rel="stylesheet" href="css/navigationBar.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="topBar.css">
-    <link rel="stylesheet" href="salesTable.css">
-    <link rel="stylesheet" href="resetStyles.css">
+    <link rel="stylesheet" href="css/topBar.css">
+    <link rel="stylesheet" href="css/salesTable.css">
+    <link rel="stylesheet" href="css/resetStyles.css">
     <title>Lista de compras</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="contenedor">
-            <nav class="menu-main">
-                <div class="fondo-green">
-                    <p>::Panel de control::</p>
+
+        <div class="top-bar-container">
+            <div class="top-bar-green-background">
+                <p>::Panel de control::</p>
+            </div>
+            <div class="fondo-white">
+                <p>Empresa:Asutienda</p>
+                <p>Usuario:</p>
+                <div class="top-bar-icon">
+                    <img src="images/topBarimg/left.png" alt="volver al menu">
                 </div>
-                <div class="fondo-white">
-                    <p>Empresa:Asutienda</p>
-                    <p>Usuario:</p>
-                    <p>volver al menú
-                        <a href="#">
-                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                        </a>
-                    </p>
-                    <p>
-                        <a href="#">
-                            <i class="fa fa-question-circle" aria-hidden="true"></i>
-                        </a>
-                        ayuda</p>
-                    <p>
-                        <a href="#">
-                            <i class="fa fa-sign-out" aria-hidden="true"></i>
-                        </a>::salir</p>
+                <p>volver al menú</p>
+                <div class="top-bar-icon">
+                    <img src="images/topBarimg/help.png" alt="ayuda">
                 </div>
-            </nav>
+                <p>ayuda</p>
+                <div class="top-bar-icon">
+                    <img src="images/topBarimg/out.png" alt="salir">
+                </div>
+                <p>::salir</p>
+            </div>
+
         </div>
 
-        <div class="sub-menu-container">
-            <div class="sub-menu-item">
-                <a href="#" class="sub-menu-title">Maestro</a>
-                <div class="sub-menu-list">
+        <div class="navigation-bar-container">
+            <div class="navigation-bar-row">
+                <a href="#" class="navigation-bar-title">Maestro</a>
+                <div class="navigation-bar-sub-menu">
                     <a href="#">Usuario</a>
                     <a href="#">Productos</a>
                     <a href="#">Kits</a>
@@ -60,40 +58,40 @@
                     <a href="#">Entidades</a>
                 </div>
             </div>
-            <div class="sub-menu-item">
-                <a href="#" class="sub-menu-title">Compras</a>
-                <div class="sub-menu-list">
+            <div class="navigation-bar-row">
+                <a href="#" class="navigation-bar-title">Compras</a>
+                <div class="navigation-bar-sub-menu">
                     <a href="#">Terceros</a>
                     <a href="#">Productos</a>
                 </div>
             </div>
-            <div class="sub-menu-item">
-                <a href="#" class="sub-menu-title">Inventario</a>
-                <div class="sub-menu-list">
+            <div class="navigation-bar-row">
+                <a href="#" class="navigation-bar-title">Inventario</a>
+                <div class="navigation-bar-sub-menu">
                     <a href="#">Ajustes</a>
                     <a href="#">Ajustes de ventas</a>
                     <a href="#">Notas</a>
                 </div>
             </div>
-            <div class="sub-menu-item">
-                <a href="#" class="sub-menu-title">Ventas</a>
-                <div class="sub-menu-list">
+            <div class="navigation-bar-row">
+                <a href="#" class="navigation-bar-title">Ventas</a>
+                <div class="navigation-bar-sub-menu">
                     <a href="#">Devolucion</a>
                     <a href="#">Agotados</a>
                 </div>
             </div>
-            <div class="sub-menu-item">
-                <a href="#" class="sub-menu-title">Cargue</a>
+            <div class="navigation-bar-row">
+                <a href="#" class="navigation-bar-title">Cargue</a>
             </div>
-            <div class="sub-menu-item">
-                <a href="#" class="sub-menu-title">Pedidos</a>
-                <div class="sub-menu-list">
+            <div class="navigation-bar-row">
+                <a href="#" class="navigation-bar-title">Pedidos</a>
+                <div class="navigation-bar-sub-menu">
                     <a href="#">Mensajes</a>
                 </div>
             </div>
-            <div class="sub-menu-item">
-                <a href="#" class="sub-menu-title">Informes</a>
-                <div class="sub-menu-list">
+            <div class="navigation-bar-row">
+                <a href="#" class="navigation-bar-title">Informes</a>
+                <div class="navigation-bar-sub-menu">
                     <a href="#">Rentabilidad</a>
                     <a href="#">Inventario</a>
                     <a href="#">Contable</a>
@@ -109,24 +107,25 @@
                     <a href="#">General</a>
                 </div>
             </div>
-            <div class="sub-menu-item">
-                <a href="#" class="sub-menu-title">Nomina</a>
-                <div class="sub-menu-list">
+            <div class="navigation-bar-row">
+                <a href="#" class="navigation-bar-title">Nomina</a>
+                <div class="navigation-bar-sub-menu">
                     <a href="#">Transportador</a>
                     <a href="#">Vendedores</a>
                 </div>
             </div>
-            <div class="sub-menu-item">
-                <a href="#" class="sub-menu-title">Prestamos</a>
-                <div class="sub-menu-list">
+            <div class="navigation-bar-row">
+                <a href="#" class="navigation-bar-title">Prestamos</a>
+                <div class="navigation-bar-sub-menu">
                     <a href="#">P.cargue</a>
                     <a href="#">Productos</a>
                 </div>
             </div>
-            <div class="sub-menu-item">
-                <a href="#" class="sub-menu-title">Backup</a>
+            <div class="navigation-bar-row">
+                <a href="#" class="navigation-bar-title">Backup</a>
             </div>
         </div>
+
         <div class="list-container">
             <div class="list-items">
                 <div class="title-list">

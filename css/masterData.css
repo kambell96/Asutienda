@@ -9,28 +9,36 @@
 
 .user-details{
     display: flex;
-    flex-wrap: wrap;
+}
+
+.user-details-box {
+    margin: 0 20px 20px 0;
 }
 
 form.user {
     display: flex;
-    margin: 15px;
+    margin: 15px 0;
     max-width: 570px;
 }
-label{
-    width: 10%;
+
+select.input-text {
+    width: 181px;
+    height: 36px;
 }
+
 .box-input{
-    width: 30%;
-    margin: 5px;
+    width: 25%;
+    margin: 4px;
+    margin-right: 10px;
 }
+
 .title-user {
-    margin: 15px;
+    margin: 15px 0;
     color: #46912F;
 }
-label.flex {
-    flex: 0 1 14%;
-    margin: 10px;
+
+.info-user {
+    margin: 0 15px;
 }
 /* aqui termina el cuadro del user */
 

@@ -1,34 +1,39 @@
-.menu-main{
+.top-bar-container{
     height: 40px;
     border-bottom: 1px solid white;
     display: flex;
     justify-content: space-between;
     background-color: #EEEEFF;
-    padding-bottom: 20px;
+    padding-bottom: 14px;
     
 }
+
 p.fondo-green,.fondo-white{
     font-family: arial;
     font-size: 10px;
     font-weight: bold;
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
    
 }
 
-.fondo-green{
+.top-bar-green-background{
     background-color:  #46912F;
     width: 20%;
     color: white;
 }
+
 .fondo-white p {
-    position: relative;
-    left: 300px;
     margin: 11px;
     font-size: 11px;
 }
+
 .fondo-green p {
     margin: 10px
+}
+
+.top-bar-icon img {
+    width: 16px;
+    height: 16px;
 }
