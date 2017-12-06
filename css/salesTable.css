@@ -1,16 +1,10 @@
-.sub-menu-container {
-    margin-bottom: 20px;
-}
-
 .list-container{
     display: flex;
-    background: gray;
     margin: 10px;
     font-size: 9px;
 }
 
 .list-items {
-    background-color: #EEEEFF;
     flex: auto;
     text-align: center;
 }
@@ -19,14 +13,14 @@
     border: 0.1px solid #d2d2d2;
     background-color: #ffffff;
     padding: 4px;
-    height: 20px;
+   /* height: 20px;*/
 }
 
 .title-list {
     padding: 5px;
     background: #EEEEFF;
     border: 0.1px solid #d2d2d2;
-    height: 24px;
+   /* height: 24px;*/
     font-weight: bold;
 }
 
