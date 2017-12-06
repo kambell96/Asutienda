@@ -1,10 +1,10 @@
 
 function openSlideMenu() {
-    document.getElementById('side-menu').style.width
-        = '250px';
+	document.getElementById('side-menu').style.width
+		= '250px';
 }
 function cloeSlideMenu() {
-    document.getElementById('side-menu').style.width
-        = '0';
+	document.getElementById('side-menu').style.width
+		= '0';
 
 }

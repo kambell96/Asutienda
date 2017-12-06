@@ -1,53 +1,51 @@
 
 /* aqui empieza los estilos del sub menu  y su despliegue*/
-    .navigation-bar-container {
-        background-color: #46912F;
-        display: flex;
-        justify-content: center;
-        font-size: 12px;
-    }
-    
-    .navigation-bar-row {
-        padding: 15px;
-        position: relative;
-        min-width: 80px;
-    }
+.navigation-bar-container {
+	background-color: #46912F;
+	display: flex;
+	justify-content: center;
+	font-size: 12px;
+}
 
-     .navigation-bar-sub-menu {
-        display: none;
-        position: absolute;
-        top: 44px;
-        left: 0;
-        right: 0;
-        background-color: #46912F;
-    }
+.navigation-bar-row {
+	padding: 15px;
+	position: relative;
+	min-width: 80px;
+}
 
-    .navigation-bar-row:hover .navigation-bar-sub-menu {
-        display: flex;
-        flex-direction: column;
-        
-    }
+.navigation-bar-sub-menu {
+	display: none;
+	position: absolute;
+	top: 44px;
+	left: 0;
+	right: 0;
+	background-color: #46912F;
+}
 
-      .navigation-bar-sub-menu a {
-        text-decoration: none;
-        padding: 10px 8px 10px;
-        color: #ffffff;
-        text-align: left;
-       
-    }
-    
-    .navigation-bar-row:hover {
-        background-color: #3fb83a;
-    }
+.navigation-bar-row:hover .navigation-bar-sub-menu {
+	display: flex;
+	flex-direction: column;
+		
+}
 
-     .navigation-bar-sub-menu a:hover {
-        background-color: #3fb83a;
-    }
+.navigation-bar-sub-menu a {
+	text-decoration: none;
+	padding: 10px 8px 10px;
+	color: #ffffff;
+	text-align: left;
+		
+}
 
-    .navigation-bar-title{
-        text-decoration: none;
-        color: #ffffff;
-    }
-    
+.navigation-bar-row:hover {
+	background-color: #3fb83a;
+}
 
+	.navigation-bar-sub-menu a:hover {
+	background-color: #3fb83a;
+}
+
+.navigation-bar-title{
+	text-decoration: none;
+	color: #ffffff;
+}
 /* aqui termina el sub menu y su depliegue */

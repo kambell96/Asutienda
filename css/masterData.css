@@ -1,36 +1,36 @@
 
 /* aqui el cuadro del user */
 .details-user{
-    display: flex;
-    justify-content: center;
-    max-width: 50%;
+	display: flex;
+	justify-content: center;
+	max-width: 50%;
 }
 
 .user-details,.filters-container{
-    display: flex;
+	display: flex;
 }
 
 .user-details-box,.filters-details-box {
-    margin: 0 20px 0 0;
+	margin: 0 20px 0 0;
 }
 
 form.user,.filters {
-    display: flex;
-    margin: 15px 0;
-    max-width: 570px;
+	display: flex;
+	margin: 15px 0;
+	max-width: 570px;
 }
 
 select.input-text {
-    width: 181px;
-    height: 36px;
+	width: 181px;
+	height: 36px;
 }
 
 .module-content-container {
-    margin: 0 15px;
+	margin: 0 15px;
 }
 
 .label-space{
-    padding: 8px 0 5px 0;
+	padding: 8px 0 5px 0;
 }
 /* aqui termina el cuadro del user */
 

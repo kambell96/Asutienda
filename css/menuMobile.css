@@ -1,139 +1,139 @@
 /* aqui agrego la barra despegable para el mobile */
 
 .mobile-navbar-button{
-    background-color:  #46912F;
-    display: flex;
-    padding: 14px 16px;
-    height: 63px;
+	background-color:  #46912F;
+	display: flex;
+	padding: 14px 16px;
+	height: 63px;
 }
 
 .mobile-navbar-items{
-    height: 280px;
-    width: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #46912F;
-    opacity: 0.9;
-    padding-top: 10px;
-    transition: all 0.5s;
-    overflow-x: hidden;
-    position: absolute;
+	height: 280px;
+	width: 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #46912F;
+	opacity: 0.9;
+	padding-top: 10px;
+	transition: all 0.5s;
+	overflow-x: hidden;
+	position: absolute;
 }
 
 .mobile-navbar-items a {
-    padding: 0px 0px 10px 12px;
-    text-decoration: none;
-    font-size: 22px;
-    color: white;
-    display: flex;
-    transition: 0.3s;
-    flex-direction: row;
-    width: 200px;
-    position: relative;
-    bottom: 30px;
+	padding: 0px 0px 10px 12px;
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	display: flex;
+	transition: 0.3s;
+	flex-direction: row;
+	width: 200px;
+	position: relative;
+	bottom: 30px;
 }
 
 .mobile-navbar-items a:hover{
-  color: #d3e623;
+	color: #d3e623;
 }
 
 .mobile-navbar-items .btn-close{
-    top: 0px;
-    left: 190px;
-    font-size: 50px;
-    height: 50px;
-    width: 40px;
-    align-items: baseline;
-    padding: 0 5px 0 10px;
+	top: 0px;
+	left: 190px;
+	font-size: 50px;
+	height: 50px;
+	width: 40px;
+	align-items: baseline;
+	padding: 0 5px 0 10px;
 }
 
 /*aqui termina la barra despegable */
 
 /* empiezo con los estilos de las barritas hr */
 div.line-color{
-    width: 85px;
-    background-color: #c9fc7e;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    height: 20px;
-    border: 1px solid white;
-    margin-top: 5px;
+	width: 85px;
+	background-color: #c9fc7e;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	height: 20px;
+	border: 1px solid white;
+	margin-top: 5px;
 }
 
 hr {    
-    border: 0;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    height: 2px;
-    background: #ffffff;
-    margin: 5px;
+	border: 0;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	height: 2px;
+	background: #ffffff;
+	margin: 5px;
 }
 /*aqui termina las barras hr */
 
 @media screen and (max-width:480px) {
     
-    .menu-modules-row{
-        width: 56%;
-        height: auto;
-        margin: 0 auto;
-        flex-direction: column;
-    }
+	.menu-modules-row{
+		width: 56%;
+		height: auto;
+		margin: 0 auto;
+		flex-direction: column;
+	}
 
-    nav p{
-        font-size: 12px;
-    }
+	nav p{
+		font-size: 12px;
+	}
 
-    .box-text{
-       max-width: 50%;
-       padding-top: 10px;
-    }
+	.box-text{
+		max-width: 50%;
+		padding-top: 10px;
+	}
 
-    .box-text span {
-        font-size: 16px;
-    }
+	.box-text span {
+		font-size: 16px;
+	}
 
-    .top-bar-container{
-        display: none;
-    }
+	.top-bar-container{
+		display: none;
+	}
 
-    .img-module {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+	.img-module {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-     img {
-        width: 70px;
-        height: 70px;
-    }
+		img {
+		width: 70px;
+		height: 70px;
+	}
 
-    .line{
-        max-width: 100%;
-    }
+	.line{
+		max-width: 100%;
+	}
 
-    div.line-color{
-        width: 118%;
-    }
+	div.line-color{
+		width: 118%;
+	}
 
-    .menu-modules-box {
-        width: 200px;
-        height: 100px;
-    }
+	.menu-modules-box {
+		width: 200px;
+		height: 100px;
+	}
 }
 
 @media screen and (min-width:480px) {
   
-    .open-slide{
-        display: none;
-    }
+	.open-slide{
+		display: none;
+	}
 
-   .mobile-navbar-button{
-        display: none;
-    }
+	.mobile-navbar-button{
+		display: none;
+	}
 
-    .mobile-navbar-items {
-        display: none;
-    }
+	.mobile-navbar-items {
+		display: none;
+	}
     
 }
 
