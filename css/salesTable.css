@@ -32,4 +32,10 @@
 .result{
 	color: #0000ff;
 }
+.block {
+	color: #ff0000;
+}
 
+.active {
+	color: #008000;
+}

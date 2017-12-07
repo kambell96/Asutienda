@@ -48,4 +48,9 @@
 	text-decoration: none;
 	color: #ffffff;
 }
+.navigation-scroll{
+	overflow: auto;
+	height: 250px;
+	width: 100%;
+}
 /* aqui termina el sub menu y su depliegue */
