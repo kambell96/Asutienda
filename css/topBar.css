@@ -16,18 +16,21 @@ p.top-bar-left-side,.top-bar-right-side{
 	align-items: center;
 }
 
+.top-bar-right-side-separation {
+	margin: 10px;
+}
+
 .top-bar-left-side{
 	background-color:  #46912F;
 	width: 20%;
 	color: white;
+	align-items: center;
+  display: flex;
+}
+
+.top-bar-left-side,.top-bar-right-side{
 	padding: 10px 0 0 10px;
 }
-
-.top-bar-right-side p {
-	margin: 11px;
-	padding: 10px 10px 0 0;
-}
-
 .top-bar-icon img {
 	width: 16px;
 	height: 16px;

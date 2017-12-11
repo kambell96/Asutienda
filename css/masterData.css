@@ -17,12 +17,12 @@
 form.user,.filters {
 	display: flex;
 	margin: 15px 0;
-	max-width: 570px;
 }
 
 select.input-text {
 	width: 181px;
 	height: 36px;
+	background: #fffafa;
 }
 
 .module-content-container {
