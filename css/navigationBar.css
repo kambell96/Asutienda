@@ -25,7 +25,6 @@
 .navigation-bar-row:hover .navigation-bar-sub-menu {
 	display: flex;
 	flex-direction: column;
-		
 }
 
 .navigation-bar-sub-menu a {
@@ -33,7 +32,6 @@
 	padding: 10px 8px 10px;
 	color: #ffffff;
 	text-align: left;
-		
 }
 
 .navigation-bar-row:hover {
@@ -62,7 +60,8 @@
 }
 
 .mobile-bar-row {
-	padding: 0;
+	display: flex;
+  padding: 5px 0 5px 0px;
 }
 
 .mobile-bar-row .navigation-bar-title:hover  {
@@ -76,7 +75,7 @@
 }
 
 .navigation-bar-sub-menu-mobile a {
-	padding: 10px 8px 45px;
+	padding: 10px 8px 15px;
 }
 
 .navigation-scroll-mobile{

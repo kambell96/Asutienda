@@ -1,6 +1,6 @@
 /* aqui agrego la barra despegable para el mobile */
 
-.mobile-navbar-button{
+.mobile-navbar-container{
 	background-color:  #46912F;
 	display: flex;
 	padding: 14px 16px;
@@ -10,26 +10,19 @@
 .mobile-navbar-items{
 	height: 400px;
 	width: 0;
-/*	display: flex;*/
-/*	flex-direction: column;*/
-/*	background-color: #46912F;*/
 	opacity: 0.9;
-	
 	transition: all 0.5s;
-/*	overflow-x: hidden;*/
 	position: absolute;
 }
 
 .mobile-navbar-items a {
 	padding: 0px 0px 10px 12px;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
-	display: flex;
 	transition: 0.3s;
-	flex-direction: row;
-	width: 120px;
 }
+
 
 .mobile-navbar-items a:hover{
 	color: #d3e623;
@@ -50,12 +43,12 @@
   display: flex;
 }
 
-.movile-navbar-title {
-  font-size: 20px;
+.mobile-navbar-title {
+  font-size: 18px;
   margin: 0 0px 0px 12px;
 }
 
-.movile-navbar-title a {
+.mobile-navbar-title a {
 	color: #ffff;
 	text-decoration: none;
 	padding: 0 0 0 18px;
@@ -134,9 +127,6 @@ hr {
 		height: 100px;
 	}
 
-	.bar-ocult{
-		display: none;
-	}
 }
 
 @media screen and (min-width:480px) {
@@ -145,7 +135,7 @@ hr {
 		display: none;
 	}
 
-	.mobile-navbar-button{
+	.mobile-navbar-container{
 		display: none;
 	}
 
