@@ -1,0 +1,85 @@
+
+/* aqui empieza los estilos del sub menu  y su despliegue*/
+.navigation-bar-container {
+	background-color: #46912F;
+	display: flex;
+	justify-content: center;
+	font-size: 12px;
+}
+
+.navigation-bar-row {
+	padding: 15px;
+	position: relative;
+	min-width: 80px;
+}
+
+.navigation-bar-sub-menu {
+	display: none;
+	position: absolute;
+	top: 44px;
+	left: 0;
+	right: 0;
+	background-color: #46912F;
+}
+
+.navigation-bar-row:hover .navigation-bar-sub-menu {
+	display: flex;
+	flex-direction: column;
+}
+
+.navigation-bar-sub-menu a {
+	text-decoration: none;
+	padding: 10px 8px 10px;
+	color: #ffffff;
+	text-align: left;
+}
+
+.navigation-bar-row:hover {
+	background-color: #3fb83a;
+}
+
+	.navigation-bar-sub-menu a:hover {
+	background-color: #3fb83a;
+}
+
+.navigation-bar-title{
+	text-decoration: none;
+	color: #ffffff;
+}
+.navigation-scroll{
+	overflow: auto;
+	height: 250px;
+	width: 100%;
+}
+/* aqui termina el sub menu y su depliegue */
+
+/* estilos para el navigation bar en mobile */
+
+.mobile-container{
+	flex-direction: column;
+}
+
+.mobile-bar-row {
+	display: flex;
+  padding: 5px 0 5px 0px;
+}
+
+.mobile-bar-row .navigation-bar-title:hover  {
+	padding: 10px;
+}
+
+.navigation-bar-sub-menu-mobile{
+	top: 0;
+	left: 212px;
+	background: #37921b;
+}
+
+.navigation-bar-sub-menu-mobile a {
+	padding: 10px 8px 15px;
+}
+
+.navigation-scroll-mobile{
+	overflow: auto;
+	height: 331px;
+	width: 69%;
+}

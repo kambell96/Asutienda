@@ -1,0 +1,42 @@
+.list-container{
+	display: flex;
+	margin: 10px;
+	font-size: 9px;
+}
+
+.table-list-column {
+	flex: auto;
+}
+
+.table-list-row {
+	border: 0.1px solid #d2d2d2;
+	background-color: #ffffff;
+	padding: 4px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.table-list-title {
+	padding: 5px;
+	background: #EEEEFF;
+	border: 0.1px solid #d2d2d2;
+	height: 24px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.result{
+	color: #0000ff;
+}
+
+.block {
+	color: #ff0000;
+}
+
+.active {
+	color: #008000;
+}

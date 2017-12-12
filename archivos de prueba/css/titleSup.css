@@ -1,0 +1,16 @@
+.principal-title {
+	padding: 6px 10px 0 10px;
+	color: #46912F;
+	display: flex;
+	background: #EEEEFF;;
+}
+
+.title {
+	width: 60%;
+}
+.principal-title-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 100%;
+}
