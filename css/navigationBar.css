@@ -1,4 +1,3 @@
-
 /* aqui empieza los estilos del sub menu  y su despliegue*/
 .navigation-bar-container {
 	background-color: #46912F;
@@ -38,7 +37,7 @@
 	background-color: #3fb83a;
 }
 
-	.navigation-bar-sub-menu a:hover {
+.navigation-bar-sub-menu a:hover {
 	background-color: #3fb83a;
 }
 

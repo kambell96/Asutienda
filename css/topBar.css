@@ -1,6 +1,5 @@
 .top-bar-container{
 	height: 40px;
-	border-bottom: 1px solid white;
 	display: flex;
 	justify-content: space-between;
 	background-color: #EEEEFF;
@@ -20,17 +19,20 @@ p.top-bar-left-side,.top-bar-right-side{
 	margin: 10px;
 }
 
+.top-bar-right-side{
+	padding: 10px 10px 0 0;
+}
+
 .top-bar-left-side{
 	background-color:  #46912F;
 	width: 20%;
 	color: white;
 	align-items: center;
-  display: flex;
-}
-
-.top-bar-left-side,.top-bar-right-side{
+	display: flex;
+	font-size: 14px;
 	padding: 10px 0 0 10px;
 }
+
 .top-bar-icon img {
 	width: 16px;
 	height: 16px;

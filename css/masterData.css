@@ -18,19 +18,28 @@ form.user,.filters {
 	margin: 15px 0;
 }
 
+.padding-separate-form{
+	padding-bottom: 20px;
+}
+
 select.input-text {
 	width: 181px;
 	height: 36px;
 	background: #fffafa;
+}
+.user-details-input{
+	margin-top: 5px;
 }
 
 .module-content-container {
 	margin: 0 15px;
 }
 
-.label-space{
-	padding: 8px 0 5px 0;
+.user-details-box-row-label-space{
+	padding: 10px 0 10px 0;
 	margin-top: 20px;
+	height: 45px;
+	width: 65%;
 }
 /* aqui termina el cuadro del user */
 
