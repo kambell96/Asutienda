@@ -1,17 +1,16 @@
 
 /* aqui el cuadro del user */
-.details-user{
-	display: flex;
-	justify-content: center;
-	max-width: 50%;
-}
-
 .user-details,.filters-container{
 	display: flex;
 }
 
 .user-details-box,.filters-details-box {
 	margin: 0 20px 0 0;
+	display: flex;
+}
+
+.user-details-box-row,.filters-details-box-row {
+  margin: 0px 20px 0px 0px;
 }
 
 form.user,.filters {
@@ -31,6 +30,7 @@ select.input-text {
 
 .label-space{
 	padding: 8px 0 5px 0;
+	margin-top: 20px;
 }
 /* aqui termina el cuadro del user */
 

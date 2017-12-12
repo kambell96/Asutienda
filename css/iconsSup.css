@@ -1,8 +1,6 @@
-.module-icons-bar {
-	margin: 15px 0px 15px 10px;
-	padding: 5px 0 5px 0;
+.module-icons-bar-images {
+  margin-right: auto;
 }
-
 .module-icons-bar-images img {
 	padding: 5px;
 }

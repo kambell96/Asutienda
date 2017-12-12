@@ -8,29 +8,27 @@
 }
 
 .mobile-navbar-items{
-	height: 280px;
+	height: 400px;
 	width: 0;
-	display: flex;
-	flex-direction: column;
-	background-color: #46912F;
+/*	display: flex;*/
+/*	flex-direction: column;*/
+/*	background-color: #46912F;*/
 	opacity: 0.9;
-	padding-top: 10px;
+	
 	transition: all 0.5s;
-	overflow-x: hidden;
+/*	overflow-x: hidden;*/
 	position: absolute;
 }
 
 .mobile-navbar-items a {
 	padding: 0px 0px 10px 12px;
 	text-decoration: none;
-	font-size: 22px;
+	font-size: 20px;
 	color: white;
 	display: flex;
 	transition: 0.3s;
 	flex-direction: row;
-	width: 200px;
-	position: relative;
-	bottom: 30px;
+	width: 120px;
 }
 
 .mobile-navbar-items a:hover{
@@ -39,7 +37,7 @@
 
 .mobile-navbar-items .btn-close{
 	top: 0px;
-	left: 190px;
+	left: 160px;
 	font-size: 50px;
 	height: 50px;
 	width: 40px;
@@ -47,6 +45,20 @@
 	padding: 0 5px 0 10px;
 }
 
+.open-slide {
+  display: flex;
+}
+
+.movile-navbar-title {
+  font-size: 20px;
+  margin: 0 0px 0px 12px;
+}
+
+.movile-navbar-title a {
+	color: #ffff;
+	text-decoration: none;
+	padding: 0 0 0 18px;
+}
 /*aqui termina la barra despegable */
 
 /* empiezo con los estilos de las barritas hr */
@@ -73,7 +85,7 @@ hr {
 @media screen and (max-width:480px) {
     
 	.menu-modules-row{
-		width: 56%;
+		width: 60%;
 		height: auto;
 		margin: 0 auto;
 		flex-direction: column;
@@ -118,6 +130,10 @@ hr {
 	.menu-modules-box {
 		width: 200px;
 		height: 100px;
+	}
+
+	.bar-ocult{
+		display: none;
 	}
 }
 

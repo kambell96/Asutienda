@@ -54,3 +54,22 @@
 	width: 100%;
 }
 /* aqui termina el sub menu y su depliegue */
+
+/* estilos para el navigation bar en mobile */
+
+.mobile-container{
+	flex-direction: column;
+}
+
+.mobile-bar-row {
+	padding: 0;
+}
+
+.navigation-bar-sub-menu-mobile{
+	top: 0;
+  left: 212px;
+}
+
+.navigation-bar-sub-menu-mobile a {
+	background: #46912F;
+}
