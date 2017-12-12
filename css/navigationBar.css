@@ -65,11 +65,22 @@
 	padding: 0;
 }
 
+.mobile-bar-row .navigation-bar-title:hover  {
+	padding: 10px;
+}
+
 .navigation-bar-sub-menu-mobile{
 	top: 0;
-  left: 212px;
+	left: 212px;
+	background: #37921b;
 }
 
 .navigation-bar-sub-menu-mobile a {
-	background: #46912F;
+	padding: 10px 8px 45px;
+}
+
+.navigation-scroll-mobile{
+	overflow: auto;
+	height: 331px;
+	width: 69%;
 }

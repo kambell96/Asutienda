@@ -43,6 +43,7 @@
 	width: 40px;
 	align-items: baseline;
 	padding: 0 5px 0 10px;
+	position: relative;
 }
 
 .open-slide {
@@ -59,6 +60,7 @@
 	text-decoration: none;
 	padding: 0 0 0 18px;
 }
+
 /*aqui termina la barra despegable */
 
 /* empiezo con los estilos de las barritas hr */
