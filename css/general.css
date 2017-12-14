@@ -16,3 +16,39 @@
 	border: 1px solid #ddd;
 	padding: 5px;
 }
+
+.module-content-container {
+  margin: 0 15px;
+}
+
+.user-details-box-row,.filters-details-box-row {
+	display: flex;
+	margin: 20px 0 20px 0;
+}
+
+select.input-text {
+	width: 181px;
+	height: 36px;
+	background: #fffafa;
+}
+
+.user-details-box-row-label-space {
+	width: 140px;
+	height: 45px;
+}
+
+/* aqui termina el cuadro del user */
+.user-details-box-row-internal {
+	padding: 0px 15px 0 0px;
+	height: 100px;
+	width: 212px;
+}
+
+.label-space {
+	padding-bottom: 5px;
+}
+
+.titles-color{
+	color: #46912F;
+}
+

@@ -1,6 +1,5 @@
 .principal-title {
 	padding: 6px 10px 0 10px;
-	color: #46912F;
 	display: flex;
 	background: #EEEEFF;;
 }
@@ -13,8 +12,4 @@
 	align-items: center;
 	justify-content: center;
 	flex-basis: 100%;
-}
-
-.form-title-container {
-	color: #46912F;
 }

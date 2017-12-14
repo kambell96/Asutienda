@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/iconsSup.css">
   <link rel="stylesheet" href="css/titleSup.css">
-
+  <link rel="stylesheet" href="css/salesPage.css">
   <title>Document</title>
 </head>
 
@@ -166,7 +166,7 @@
           <img src="images/iconsSup/save.png" alt="">
         </div>
 
-        <div class="title">
+        <div class="title titles-color">
           <h2>Informacion de la empresa</h2>
         </div>
       </div>
@@ -174,189 +174,232 @@
 
 
 
+
     <div class="module-content-container">
 
-      <form action="" class="user padding-separate-form">
-
-        <div class="user-details">
-
-          <div class="user-details-box">
-
-            <div class="user-details-box-row">
-              <div class="user-details-box-row-label-space">
-                <label for="cedula" class="user-details-label user-details-label-space">Nombre:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-
-              <div class="user-details-box-row-label-space">
-                <label for="name" class="user-details-label">Dpto:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-              <div class="user-details-box-row-label-space">
-                <label for="cedula" class="user-details-label user-details-label-space">Web:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-            </div>
-
-            <div class="user-details-box-row">
-
-              <div class="user-details-box-row-label-space">
-                <label for="number-phone" class="user-details-label">Nit:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-
-              <div class="user-details-box-row-label-space">
-                <label for="address" class="user-details-label">Telefono:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-
-              <div class="user-details-box-row-label-space">
-                <label for="name" class="user-details-label">Resolucion:</label>
-              </div>
-              <textarea type="text" class="input-text user-details-input">Resolucion</textarea>
-            </div>
-
-            <div class="user-details-box-row">
-              <div class="user-details-box-row-label-space">
-                <label for="password" class="user-details-label">Dirección:</label>
-              </div>
-              <input type="password" class="input-text user-details-input">
-
-              <div class="user-details-box-row-label-space">
-                <label for="bodega" class="user-details-label">Fax:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-
-            </div>
-            <div class="user-details-box-row">
-
-              <div class="user-details-box-row-label-space">
-                <label for="rol" class="user-details-label">Ciudad:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-              <div class="user-details-box-row-label-space">
-                <label for="rol" class="user-details-label">Email:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-            </div>
 
 
+      <div class="user-details-box-row">
+
+        <div class="user-details-box-row-internal">
+          <div class="label-space">
+            <label for="cedula" class="user-details-label label-sepa"> Nombre:</label>
           </div>
-
+          <input type="text" class="input-text">
         </div>
 
-      </form>
+        <div class="user-details-box-row-internal">
+          <div class="label-space">
+            <label for="name" class="user-details-label">Nit:</label>
+          </div>
+          <input type="text" class="input-text">
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="label-space">
+            <label for="number-phone" class="user-details-label">Dirección:</label>
+          </div>
+          <input type="text" class="input-text">
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="label-space">
+            <label for="address" class="user-details-label">Ciudad:</label>
+          </div>
+          <input type="text" class="input-text">
+        </div>
+      </div>
+
+      <div class="user-details-box-row">
+
+        <div class="user-details-box-row-internal">
+          <div class="label-space">
+            <label for="password" class="user-details-label">Dpto:</label>
+          </div>
+          <input type="password" class="input-text">
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="label-space">
+            <label for="cliente" class="user-details-label">Telefono:</label>
+          </div>
+          <input type="password" class="input-text">
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="label-space">
+            <label for="rol" class="user-details-label">Fax:</label>
+          </div>
+          <input type="password" class="input-text">
+        </div>
+        <div class="user-details-box-row-internal">
+          <div class="label-space">
+            <label for="password" class="user-details-label">Email:</label>
+          </div>
+          <input type="password" class="input-text">
+        </div>
+
+
+      </div>
+
+      <div class="user-details-box-row">
+
+        <div class="user-details-box-row-internal">
+          <div class="label-space">
+            <label for="password" class="user-details-label">Web:</label>
+          </div>
+          <input type="password" class="input-text">
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="label-space">
+            <label for="bodega" class="user-details-label"> Resolucion:</label>
+          </div>
+          <textarea type="password" class="input-text"></textarea>
+        </div>
+
+
+      </div>
+
 
       <div class="form-title">
-        <div class="form-title-container">
-          <div class="title">
-            <h2>Configuracion de nomina Transportadores</h2>
-          </div>
+
+        <div class="sales-page-title titles-color">
+          <h2>Configuracion de nomina Transportadores</h2>
         </div>
       </div>
 
 
-      <form action="" class="user">
+      <div class="user-details-box-row">
 
-        <div class="user-details">
-
-          <div class="user-details-box">
-
-            <div class="user-details-box-row">
-              <div class="user-details-box-row-label-space">
-                <label for="cedula" class="user-details-label user-details-label-space">Pagar a:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-
-              <div class="user-details-box-row-label-space">
-                <label for="name" class="user-details-label"> con efectividad mayor o igual a :</label>
-              </div>
-              <input type="text" class="input-text user-details-input">(%)
-              <div class="user-details-box-row-label-space">
-                <label for="cedula" class="user-details-label user-details-label-space"> Refuente:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">(%)
-
-              <div class="user-details-box-row-label-space">
-                <label for="cedula" class="user-details-label user-details-label-space">ICBF:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">(%)
-            </div>
-
-            <div class="user-details-box-row">
-
-              <div class="user-details-box-row-label-space">
-                <label for="number-phone" class="user-details-label"> con efectividad mayor o igual a:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">(%)
-
-              <div class="user-details-box-row-label-space">
-                <label for="address" class="user-details-label">Y descuadres menor que:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-
-              <div class="user-details-box-row-label-space">
-                <label for="name" class="user-details-label">Pension:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">(%)
-
-              <div class="user-details-box-row-label-space">
-                <label for="cedula" class="user-details-label user-details-label-space">Caja de compensacion:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">(%)
-            </div>
-
-            <div class="user-details-box-row">
-              <div class="user-details-box-row-label-space">
-                <label for="password" class="user-details-label"> En caso contrario pagar a:</label>
-              </div>
-              <input type="password" class="input-text user-details-input">
-
-              <div class="user-details-box-row-label-space">
-                <label for="bodega" class="user-details-label">Pagar parciales a:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-
-              <div class="user-details-box-row-label-space">
-                <label for="rol" class="user-details-label">SENA:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">(%)
-
-              <div class="user-details-box-row-label-space">
-                <label for="cedula" class="user-details-label user-details-label-space">ARP:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">(%)
-
-            </div>
-            <div class="user-details-box-row">
-
-              <div class="user-details-box-row-label-space">
-                <label for="rol" class="user-details-label">Bono de:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-              <div class="user-details-box-row-label-space">
-                <label for="rol" class="user-details-label">Si son menos de:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-
-              <div class="user-details-box-row-label-space">
-                <label for="rol" class="user-details-label">Salud:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">(%)
-
-
-              <div class="user-details-box-row-label-space">
-                <label for="cedula" class="user-details-label user-details-label-space">Dias para Ediar:</label>
-              </div>
-              <input type="text" class="input-text user-details-input">
-            </div>
-
-
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="cedula" class="user-details-label"> Pagar a:</label>
           </div>
+          <input type="text" class="input-text">
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="name" class="user-details-label">con efectividad mayor o igual a:</label>
+          </div>
+          <input type="text" class="input-text"> (%)
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="number-phone" class="user-details-label"> En caso contrario pagar a:</label>
+          </div>
+          <input type="text" class="input-text">
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="address" class="user-details-label"> Bono de:</label>
+          </div>
+          <input type="text" class="input-text">
+        </div>
+      </div>
+
+
+      <div class="user-details-box-row">
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="password" class="user-details-label">con efectividad mayor o igual a:</label>
+          </div>
+          <input type="password" class="input-text">(%)
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="cliente" class="user-details-label"> Y descuadres menor que:</label>
+          </div>
+          <input type="password" class="input-text">
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="rol" class="user-details-label">Pagar parciales a:</label>
+          </div>
+          <input type="text" class="input-text">
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="password" class="user-details-label">Si son menos de:</label>
+          </div>
+          <input type="text" class="input-text">
 
         </div>
 
-      </form>
+
+      </div>
+
+
+      <div class="user-details-box-row">
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="password" class="user-details-label">Retefuente:</label>
+          </div>
+          <input type="text" class="input-text">(%)
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="bodega" class="user-details-label">Pension:</label>
+          </div>
+          <input type="text" class="input-text">(%)
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="rol" class="user-details-label">SENA:</label>
+          </div>
+          <input type="password" class="input-text">(%)
+        </div>
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="password" class="user-details-label">Salud:</label>
+          </div>
+          <input type="password" class="input-text">(%)
+        </div>
+
+
+      </div>
+
+      <div class="user-details-box-row">
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="password" class="user-details-label">ICBF:</label>
+          </div>
+          <input type="text" class="input-text">(%)
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="password" class="user-details-label">Caja Compensacion:</label>
+          </div>
+          <input type="text" class="input-text">(%)
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="password" class="user-details-label">ARP:</label>
+          </div>
+          <input type="text" class="input-text">(%)
+        </div>
+
+        <div class="user-details-box-row-internal">
+          <div class="user-details-box-row-label-space">
+            <label for="password" class="user-details-label">Dias para Ediar:</label>
+          </div>
+          <input type="text" class="input-text">
+        </div>
+
+      </div>
 
     </div>
 

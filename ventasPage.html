@@ -165,121 +165,140 @@
 					<img src="images/iconsSup/all.png" alt="">
 				</div>
 
-				<div class="title">
+				<div class="title titles-color">
 					<h2>Detalles del usuario</h2>
 				</div>
 			</div>
 		</div>
 
-		<div class="sales-page-title">
-			<h2>Ingresa un criterio de busqueda</h2>
-		</div>
+
 
 		<div class="module-content-container">
+			<div class="sales-page-title titles-color">
+				<h2>Ingresa un criterio de busqueda</h2>
+			</div>
 
-			<form action="" class="filters">
+			<div class="user-details-box-row">
 
-				<div class="filters-container">
-
-					<div class="filters-details-box">
-						<div class="filters-details-box-row">
-							<div class="label-space">
-								<label for="cedula" class="filters-details-label">Factura</label>
-							</div>
-							<input type="text" class="input-text">
-							<div class="label-space">
-								<label for="name" class="filters-details-label">#Pedido</label>
-							</div>
-							<input type="text" class="input-text">
-						</div>
-
-						<div class="filters-details-box-row">
-							<div class="label-space">
-								<label for="address" class="filters-details-label">Codigo Cliente</label>
-							</div>
-							<input type="text" class="input-text">
-							<div class="label-space">
-								<label for="number-phone" class="filters-details-label">Codigo Producto</label>
-							</div>
-							<input type="text" class="input-text">
-						</div>
-
-
-						<div class="filters-details-box-row">
-							<div class="label-space">
-								<label for="address" class="filters-details-label">NIT/CC</label>
-							</div>
-							<input type="text" class="input-text">
-
-							<div class="label-space">
-								<label for="number-phone" class="filters-details-label">Cliente</label>
-							</div>
-							<input type="text" class="input-text">
-						</div>
-
-
-						<div class="filters-details-box-row">
-							<div class="label-space">
-								<label for="address" class="filters-details-label">Negocio</label>
-							</div>
-							<input type="text" class="input-text">
-
-							<div class="label-space">
-								<label for="address" class="filters-details-label">Fecha de inicio</label>
-							</div>
-							<input type="text" class="input-text">
-						</div>
-
-
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="cedula" class="user-details-label label-sepa">Factura:</label>
 					</div>
-					<div class="filters-details-box">
-
-						<div class="filters-details-box-row">
-							<div class="label-space">
-								<label for="address" class="filters-details-label">Fecha final</label>
-							</div>
-							<input type="text" class="input-text">
-
-							<div class="label-space">
-								<label for="bodega" class="filters-details-label">Vendedor</label>
-							</div>
-							<select name="bodega" class="input-text">
-								<option value="select" class="input-text">Seleccionar</option>
-								<option value="asutienda" class="input-text">ASUTIENDA</option>
-							</select>
-						</div>
-
-						<div class="filters-details-box-row">
-							<div class="label-space">
-								<label for="rol" class="filters-details-label">Transportador</label>
-							</div>
-							<select name="rol" class="input-text">
-								<option value="select" class="input-text">Seleccionar</option>
-							</select>
-
-
-							<div class="label-space">
-								<label for="ruta" class="filters-details-label">Ruta</label>
-							</div>
-							<select name="bodega" class="input-text">
-								<option value="select" class="input-text">Seleccionar</option>
-								<option value="asutienda" class="input-text">ASUTIENDA</option>
-							</select>
-						</div>
-
-						<div class="filters-details-box-row">
-							<div class="label-space">
-								<label for="rol" class="filters-details-label">Estado</label>
-							</div>
-							<select name="rol" class="input-text">
-								<option value="select" class="input-text">Seleccionar</option>
-							</select>
-						</div>
-					</div>
+					<input type="text" class="input-text">
 				</div>
 
-			</form>
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="name" class="user-details-label">#Pedido:</label>
+					</div>
+					<input type="text" class="input-text">
+				</div>
+
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="number-phone" class="user-details-label">Codigo Cliente:</label>
+					</div>
+					<input type="text" class="input-text">
+				</div>
+
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="address" class="user-details-label">Codigo Producto:</label>
+					</div>
+					<input type="text" class="input-text">
+				</div>
+			</div>
+
+			<div class="user-details-box-row">
+
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="password" class="user-details-label">NIT/CC:</label>
+					</div>
+					<input type="password" class="input-text">
+				</div>
+
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="cliente" class="user-details-label">Cliente:</label>
+					</div>
+					<input type="password" class="input-text">
+				</div>
+
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="rol" class="user-details-label">Negocio:</label>
+					</div>
+					<select name="rol" class="input-text" disabled>
+						<option value="general" class="input-text">General</option>
+					</select>
+				</div>
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="password" class="user-details-label">Vendedor:</label>
+					</div>
+					<select name="bodega" class="input-text">
+						<option value="admin" class="input-text">admin</option>
+						<option value="asutienda" class="input-text">ASUTIENDA</option>
+					</select>
+				</div>
+
+
+			</div>
+
+			<div class="user-details-box-row">
+
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="password" class="user-details-label">Transp:</label>
+					</div>
+					<select name="rol" class="input-text" disabled>
+						<option value="general" class="input-text">General</option>
+					</select>
+				</div>
+
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="bodega" class="user-details-label">Ruta:</label>
+					</div>
+					<select name="rol" class="input-text" disabled>
+						<option value="general" class="input-text">General</option>
+					</select>
+				</div>
+
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="rol" class="user-details-label">Fecha Inicio:</label>
+					</div>
+					<input type="password" class="input-text">
+				</div>
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="password" class="user-details-label">Fecha Final:</label>
+					</div>
+					<input type="password" class="input-text">
+				</div>
+
+
+			</div>
+
+			<div class="user-details-box-row">
+
+				<div class="user-details-box-row-internal">
+					<div class="label-space">
+						<label for="password" class="user-details-label">Estado:</label>
+					</div>
+					<select name="bodega" class="input-text">
+						<option value="admin" class="input-text">admin</option>
+						<option value="asutienda" class="input-text">ASUTIENDA</option>
+					</select>
+				</div>
+
+			</div>
+			<input type="submit" class="boton">
+
 		</div>
+
 	</div>
 
 </body>

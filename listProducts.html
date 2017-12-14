@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/navigationBar.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/topBar.css">
+  <link rel="stylesheet" href="css/salesTable.css">
+  <link rel="stylesheet" href="css/resetStyles.css">
+  <link rel="stylesheet" href="css/iconsSup.css">
+  <link rel="stylesheet" href="css/titleSup.css">
+  <link rel="stylesheet" href="css/tooltipEvent.css">
+  <link rel="stylesheet" href="css/general.css">
+  <title>Lista de Productos</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="top-bar-container">
+      <div class="top-bar-left-side">
+        <p>::Maestro::</p>
+      </div>
+      <div class="top-bar-right-side">
+        <div class="top-bar-right-side-separation">
+          <p>Empresa:Asutienda</p>
+        </div>
+        <div class="top-bar-right-side-separation">
+          <p>Usuario:</p>
+        </div>
+        <div class="top-bar-icon">
+          <img src="images/topBarimg/left.png" alt="">
+        </div>
+        <div class="top-bar-right-side-separation">
+          <p>volver al menú</p>
+        </div>
+        <div class="top-bar-icon">
+          <img src="images/topBarimg/help.png" alt="">
+        </div>
+        <div class="top-bar-right-side-separation">
+          <p>ayuda</p>
+        </div>
+        <div class="top-bar-icon">
+          <img src="images/topBarimg/out.png" alt="">
+        </div>
+        <div class="top-bar-right-side-separation">
+          <p>::salir</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="navigation-bar-container">
+      <div class="navigation-bar-row">
+        <a href="#" class="navigation-bar-title">Maestro</a>
+        <div class="navigation-bar-sub-menu navigation-scroll">
+          <a href="#">Empresa</a>
+          <a href="#">Detalles del usuario</a>
+          <a href="#">Productos</a>
+          <a href="#">Kits</a>
+          <a href="#">Clientes</a>
+          <a href="#">Tipo de clientes</a>
+          <a href="#">Usuarios</a>
+          <a href="#">Unidades</a>
+          <a href="#">Bodegas</a>
+          <a href="#">Grupo inventarios</a>
+          <a href="#">ciudades</a>
+          <a href="#">Rutas</a>
+          <a href="#">Ruteros</a>
+          <a href="#">Zonas</a>
+          <a href="#">Vendedores</a>
+          <a href="#">Marcas</a>
+          <a href="#">Categorias</a>
+          <a href="#">Lineas</a>
+          <a href="#">Bancos</a>
+          <a href="#">Concepto gastos</a>
+          <a href="#">Concepto de devolución</a>
+          <a href="#">Gastos</a>
+          <a href="#">Transportador</a>
+          <a href="#">Entidades</a>
+          <a href="#">Conceptos Nomina</a>
+          <a href="#">Archivo Brinsa</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row">
+        <a href="#" class="navigation-bar-title">Compras</a>
+        <div class="navigation-bar-sub-menu">
+          <a href="#">Terceros</a>
+          <a href="#">Productos</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row">
+        <a href="#" class="navigation-bar-title">Inventario</a>
+        <div class="navigation-bar-sub-menu">
+          <a href="#">Ajustes</a>
+          <a href="#">Ajustes de ventas</a>
+          <a href="#">Notas</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row">
+        <a href="#" class="navigation-bar-title">Ventas</a>
+        <div class="navigation-bar-sub-menu">
+          <a href="#">Devolucion</a>
+          <a href="#">Agotados</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row">
+        <a href="#" class="navigation-bar-title">Cargue</a>
+      </div>
+      <div class="navigation-bar-row">
+        <a href="#" class="navigation-bar-title">Pedidos</a>
+        <div class="navigation-bar-sub-menu">
+          <a href="#">Mensajes</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row">
+        <a href="#" class="navigation-bar-title">Informes</a>
+        <div class="navigation-bar-sub-menu navigation-scroll">
+          <a href="#">Rentabilidad</a>
+          <a href="#">Inventario</a>
+          <a href="#">Contable</a>
+          <a href="#">Presupuesto</a>
+          <a href="#">Desempeño</a>
+          <a href="#">Movimiento</a>
+          <a href="#">Ventas agrup</a>
+          <a href="#">Ventas Transportador</a>
+          <a href="#">Ventas vend</a>
+          <a href="#">Entrada salida</a>
+          <a href="#">Nomina</a>
+          <a href="#">Pedidos</a>
+          <a href="#">General</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row">
+        <a href="#" class="navigation-bar-title">Nomina</a>
+        <div class="navigation-bar-sub-menu">
+          <a href="#">Transportador</a>
+          <a href="#">Vendedores</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row">
+        <a href="#" class="navigation-bar-title">Prestamos</a>
+        <div class="navigation-bar-sub-menu">
+          <a href="#">P.cargue</a>
+          <a href="#">Productos</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row">
+        <a href="#" class="navigation-bar-title">Backup</a>
+      </div>
+    </div>
+
+    <div class="principal-title">
+      <div class="principal-title-container">
+
+        <div class="module-icons-bar-images cssToolTip">
+          <img src="images/iconsSup/add-files.png" alt="Nuevo producto">
+          <!--<span>"Nuevo producto</span>-->
+          <img src=" images/iconsSup/search.png " alt=" ">
+          <img src="images/iconsSup/all.png " alt=" ">
+          <img src="images/iconsSup/Export2.png " alt=" ">
+          <img src="images/iconsSup/export_avantel.png " alt=" ">
+        </div>
+
+        <div class="title  titles-color">
+          <h2>Listado de Productos</h2>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="list-container ">
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+
+        </div>
+        <div class="table-list-row ">
+          <input type="checkbox">
+        </div>
+        <div class="table-list-row ">
+          <input type="checkbox">
+        </div>
+        <div class="table-list-row ">
+          <input type="checkbox">
+        </div>
+        <div class="table-list-row ">
+          <input type="checkbox">
+        </div>
+        <div class="table-list-row ">
+          <input type="checkbox">
+        </div>
+        <div class="table-list-row ">
+          <input type="checkbox">
+        </div>
+        <div class="table-list-row ">
+          <input type="checkbox">
+        </div>
+        <div class="table-list-row ">
+          <input type="checkbox">
+        </div>
+        <div class="table-list-row ">
+          <input type="checkbox">
+        </div>
+        <div class="table-list-row ">
+          <input type="checkbox">
+        </div>
+
+      </div>
+
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>Codigó</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0-13151</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0-13990</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0-14081</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0-14110</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0-14140</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0-20160</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0-22903</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0-22904</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0-22971</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0-24158</p>
+        </div>
+
+      </div>
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>Nombre</p>
+        </div>
+        <div class="table-list-row ">
+          <p>ACTIVIDAD COMERCIAL NOVIEMBRE Y DICIEMBRE</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIF. PH ULTRA SUAVE</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIF. PH MEGA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIF. PH VERDE</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIF. PH AMARILLO</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIF. SERVILLETEROS</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIFICACIÓN LUMBAL</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BANDEJA NAVIDEÑA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIF.BOLAS NAVIDEÑAS FAMILI</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIF. KIT DE SARTENES</p>
+        </div>
+
+      </div>
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>C.Maxima</p>
+        </div>
+        <div class="table-list-row ">
+          <p>5</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+
+      </div>
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>C.Minima</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+
+      </div>
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>UnitXpaca</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>24</p>
+        </div>
+        <div class="table-list-row ">
+          <p>24</p>
+        </div>
+        <div class="table-list-row ">
+          <p>24</p>
+        </div>
+        <div class="table-list-row ">
+          <p>24</p>
+        </div>
+        <div class="table-list-row ">
+          <p>24</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+        <div class="table-list-row ">
+          <p>1</p>
+        </div>
+
+      </div>
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>Marca</p>
+        </div>
+        <div class="table-list-row ">
+          <p>SERVICIOS</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA SANCELA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA SANCELA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA SANCELA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA SANCELA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA SANCELA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>LAFRANCOL S.A.S</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA SANCELA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA SANCELA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA SANCELA</p>
+        </div>
+      </div>
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>Categoria</p>
+        </div>
+        <div class="table-list-row ">
+          <p>SERVICIOS</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>PRODUCTOS FARMACÈUTICOS</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA</p>
+        </div>
+
+      </div>
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>Linea</p>
+        </div>
+        <div class="table-list-row ">
+          <p>SERVICIOS</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA PAPEL HIGIENICOS</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA PAPEL HIGIENICOS</p>
+        </div>
+        <div class="table-list-row ">
+          <p> FAMILIA PAPEL HIGIENICOS</p>
+        </div>
+        <div class="table-list-row ">
+          <p> FAMILIA PAPEL HIGIENICOS</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA SERVILLETAS</p>
+        </div>
+        <div class="table-list-row ">
+          <p>LAFRANCOL</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA PAPEL HIGIENICOS</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA PAPEL HIGIENICOS</p>
+        </div>
+        <div class="table-list-row ">
+          <p>FAMILIA PAPEL HIGIENICOS</p>
+        </div>
+
+      </div>
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>unidad</p>
+        </div>
+        <div class="table-list-row ">
+          <p>Unidad</p>
+        </div>
+        <div class="table-list-row ">
+          <p>Unidad</p>
+        </div>
+        <div class="table-list-row ">
+          <p>Unidad</p>
+        </div>
+        <div class="table-list-row ">
+          <p>Unidad</p>
+        </div>
+        <div class="table-list-row ">
+          <p>Unidad</p>
+        </div>
+        <div class="table-list-row ">
+          <p>Unidad</p>
+        </div>
+        <div class="table-list-row ">
+          <p>Unidad</p>
+        </div>
+        <div class="table-list-row ">
+          <p>Unidad</p>
+        </div>
+        <div class="table-list-row ">
+          <p>Unidad</p>
+        </div>
+        <div class="table-list-row ">
+          <p>Unidad</p>
+        </div>
+
+      </div>
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>Costo</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0.00</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0.00</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0.00</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0.00</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0.00</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0.00</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0.00</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0.00</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0.00</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0.00</p>
+        </div>
+
+      </div>
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>P.Venta</p>
+        </div>
+        <div class="table-list-row ">
+          <p>112759</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+
+      </div>
+
+
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>%IVA</p>
+        </div>
+        <div class="table-list-row ">
+          <p>19</p>
+        </div>
+        <div class="table-list-row ">
+          <p>19</p>
+        </div>
+        <div class="table-list-row ">
+          <p>19</p>
+        </div>
+        <div class="table-list-row ">
+          <p>19</p>
+        </div>
+        <div class="table-list-row ">
+          <p>19</p>
+        </div>
+        <div class="table-list-row ">
+          <p>19</p>
+        </div>
+        <div class="table-list-row ">
+          <p>19</p>
+        </div>
+        <div class="table-list-row ">
+          <p>19</p>
+        </div>
+        <div class="table-list-row ">
+          <p>19</p>
+        </div>
+        <div class="table-list-row ">
+          <p>0</p>
+        </div>
+
+      </div>
+
+
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>Descripción</p>
+        </div>
+        <div class="table-list-row ">
+          <p>ACTIVIDAD COMERCIAL NOVIEMBRE Y DICIEMBRE</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIF. PH ULTRA SUAVE X 24</p>
+
+        </div>
+        <div class="table-list-row ">
+          <p>BONIF. PH MEGA X 24</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIF. PH VERDE X 24</p>
+
+        </div>
+        <div class="table-list-row ">
+          <p>BONIF. PH AMARILLO X 24</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIFICACION DE SERVILLETREOS</p>
+
+        </div>
+        <div class="table-list-row ">
+          <p>BONIFICACIÓN LUMBAL</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BANDEJA NAVIDEÑA</p>
+
+        </div>
+        <div class="table-list-row ">
+          <p>BOLAS NAVIDEÑAS FAMILI</p>
+        </div>
+        <div class="table-list-row ">
+          <p>BONIFICACION KIT DE SARTENES</p>
+
+        </div>
+
+      </div>
+
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>Estado</p>
+        </div>
+        <div class="table-list-row result ">
+          <p>Inactivo</p>
+        </div>
+        <div class="table-list-row result block ">
+          <p>Bloqueado</p>
+        </div>
+        <div class="table-list-row result block ">
+          <p>Bloqueado</p>
+        </div>
+        <div class="table-list-row result block ">
+          <p>Bloqueado</p>
+        </div>
+        <div class="table-list-row result block ">
+          <p>Bloqueado</p>
+        </div>
+        <div class="table-list-row result block ">
+          <p>Bloqueado</p>
+        </div>
+        <div class="table-list-row result ">
+          <p>Inactivo</p>
+        </div>
+        <div class="table-list-row result ">
+          <p>Inactivo</p>
+        </div>
+        <div class="table-list-row result block ">
+          <p>Bloqueado</p>
+        </div>
+        <div class="table-list-row result block ">
+          <p>Bloqueado</p>
+        </div>
+
+      </div>
+
+      <div class="table-list-column ">
+        <div class="table-list-title ">
+          <p>Editar</p>
+        </div>
+        <div class="table-list-row ">
+          <img src="images/tableIcons/edit.png " alt=" ">
+        </div>
+        <div class="table-list-row ">
+          <img src="images/tableIcons/edit.png " alt=" ">
+        </div>
+        <div class="table-list-row ">
+          <img src="images/tableIcons/edit.png " alt=" ">
+        </div>
+        <div class="table-list-row ">
+          <img src="images/tableIcons/edit.png " alt=" ">
+        </div>
+        <div class="table-list-row ">
+          <img src="images/tableIcons/edit.png " alt=" ">
+        </div>
+        <div class="table-list-row ">
+          <img src="images/tableIcons/edit.png " alt=" ">
+        </div>
+        <div class="table-list-row ">
+          <img src="images/tableIcons/edit.png " alt=" ">
+        </div>
+        <div class="table-list-row ">
+          <img src="images/tableIcons/edit.png " alt=" ">
+        </div>
+        <div class="table-list-row ">
+          <img src="images/tableIcons/edit.png " alt=" ">
+        </div>
+        <div class="table-list-row ">
+          <img src="images/tableIcons/edit.png " alt=" ">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
