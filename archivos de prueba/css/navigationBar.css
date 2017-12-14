@@ -1,4 +1,3 @@
-
 /* aqui empieza los estilos del sub menu  y su despliegue*/
 .navigation-bar-container {
 	background-color: #46912F;
@@ -16,9 +15,6 @@
 .navigation-bar-sub-menu {
 	display: none;
 	position: absolute;
-	top: 44px;
-	left: 0;
-	right: 0;
 	background-color: #46912F;
 }
 
@@ -61,7 +57,7 @@
 
 .mobile-bar-row {
 	display: flex;
-  padding: 5px 0 5px 0px;
+	padding: 5px 0 5px 0px;
 }
 
 .mobile-bar-row .navigation-bar-title:hover  {
@@ -70,7 +66,7 @@
 
 .navigation-bar-sub-menu-mobile{
 	top: 0;
-	left: 212px;
+	left: 213px;
 	background: #37921b;
 }
 
