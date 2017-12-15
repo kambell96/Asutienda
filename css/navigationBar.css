@@ -19,6 +19,7 @@
 	left: 0;
 	right: 0;
 	background-color: #46912F;
+	z-index: 10;
 }
 
 .navigation-bar-row:hover .navigation-bar-sub-menu {
