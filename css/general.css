@@ -18,12 +18,13 @@
 }
 /* fin de input estilos */
 
+/* estilos para los formularios */
 .module-content-container {
 	margin: 0 15px;
 	padding-bottom: 10px;
 }
 
-.user-details-box-row,.filters-details-box-row {
+.user-details-box-row {
 	display: flex;
 	margin: 20px 0 20px 0;
 }
@@ -41,7 +42,7 @@ select.input-text {
 
 
 .user-details-box-row-internal {
-	margin: 0 15px 0 0;
+	margin: 15px;
 	height: 100px;
 	width: 212px;
 }
@@ -50,10 +51,14 @@ select.input-text {
 	padding-bottom: 5px;
 }
 
+.sales-page-title {
+	margin: 20px 0 20px 0;
+}
+
 .titles-color{
 	color: #46912F;
 }
-/* aqui termina el cuadro del user */
+/* aqui termina los estilos para los formularios */
 
 /* estilos para las tablas */
 .list-container{
