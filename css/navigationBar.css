@@ -69,7 +69,7 @@
 
 .navigation-bar-sub-menu-mobile{
 	top: 0;
-	left: 212px;
+	left: 213px;
 	background: #37921b;
 }
 
@@ -79,6 +79,25 @@
 
 .navigation-scroll-mobile{
 	overflow: auto;
-	height: 331px;
+	max-height: 320px;
 	width: 69%;
+}
+
+.open-slide {
+  display: flex;
+}
+
+.mobile-navbar-title {
+  font-size: 18px;
+  margin: 0 0px 0px 12px;
+}
+
+.mobile-navbar-title a {
+	color: #ffff;
+	text-decoration: none;
+	padding: 0 0 0 18px;
+}
+
+.navigation-bar-sub-menu.navigation-bar-sub-menu-mobile.navigation-scroll-mobile a {
+  padding: 10px 10px 10px 10px;
 }

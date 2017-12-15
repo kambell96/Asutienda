@@ -39,23 +39,7 @@
 	position: relative;
 }
 
-.open-slide {
-  display: flex;
-}
-
-.mobile-navbar-title {
-  font-size: 18px;
-  margin: 0 0px 0px 12px;
-}
-
-.mobile-navbar-title a {
-	color: #ffff;
-	text-decoration: none;
-	padding: 0 0 0 18px;
-}
-
 /*aqui termina la barra despegable */
-
 
 @media screen and (min-width:480px) {
   
@@ -73,3 +57,12 @@
     
 }
 
+@media screen and (max-width:480px) {
+  
+	.top-bar-container{
+		display: none;
+	}
+
+	.navigation-bar-container{
+		display: none;
+	}

@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="css/navigationBar.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/topBar.css">
-  <link rel="stylesheet" href="css/salesTable.css">
   <link rel="stylesheet" href="css/resetStyles.css">
   <link rel="stylesheet" href="css/iconsSup.css">
   <link rel="stylesheet" href="css/titleSup.css">
@@ -18,9 +17,10 @@
 
 <body>
 
+
   <div class="top-bar-container">
     <div class="top-bar-left-side">
-      <p>::Panel de control::</p>
+      <p>:: Inventario ::</p>
     </div>
     <div class="top-bar-right-side">
       <div class="top-bar-right-side-separation">
@@ -52,10 +52,9 @@
   </div>
 
   <div class="navigation-bar-container">
-
     <div class="navigation-bar-row">
       <a href="#" class="navigation-bar-title">Maestro</a>
-      <div class="navigation-bar-sub-menu  navigation-scroll">
+      <div class="navigation-bar-sub-menu navigation-scroll">
         <a href="#">Empresa</a>
         <a href="#">Detalles del usuario</a>
         <a href="#">Productos</a>
@@ -88,21 +87,21 @@
       <a href="#" class="navigation-bar-title">Compras</a>
       <div class="navigation-bar-sub-menu">
         <a href="#">Terceros</a>
-        <a href="#">Productos</a>
+        <a href="#">Productos en compras</a>
       </div>
     </div>
     <div class="navigation-bar-row">
       <a href="#" class="navigation-bar-title">Inventario</a>
       <div class="navigation-bar-sub-menu">
-        <a href="#">Ajustes</a>
-        <a href="#">Ajustes de ventas</a>
+        <a href="#">Ajustes de inventario</a>
+        <a href="#">Ajustes de costo de ventas</a>
         <a href="#">Notas de inventario</a>
       </div>
     </div>
     <div class="navigation-bar-row">
       <a href="#" class="navigation-bar-title">Ventas</a>
       <div class="navigation-bar-sub-menu">
-        <a href="#">Devolucion</a>
+        <a href="#">Devoluciones</a>
         <a href="#">Agotados</a>
       </div>
     </div>
@@ -115,37 +114,48 @@
         <a href="#">Mensajes</a>
       </div>
     </div>
+
     <div class="navigation-bar-row">
       <a href="#" class="navigation-bar-title">Informes</a>
-      <div class="navigation-bar-sub-menu  navigation-scroll">
-        <a href="#">Rentabilidad</a>
-        <a href="#">Inventario</a>
-        <a href="#">Contable</a>
-        <a href="#">Presupuesto</a>
-        <a href="#">Desempeño</a>
-        <a href="#">Movimiento</a>
-        <a href="#">Ventas agrup</a>
-        <a href="#">Ventas Transportador</a>
-        <a href="#">Ventas vend</a>
-        <a href="#">Entrada salida</a>
-        <a href="#">Nomina</a>
+      <div class="navigation-bar-sub-menu navigation-scroll">
+        <a href="#">Cuadre diario</a>
+        <a href="#">Rentabilidad por Producto</a>
+        <a href="#">inventarios ala fecha</a>
+        <a href="#">Informe contable</a>
+        <a href="#">Presupuesto de Vendedores</a>
+        <a href="#">Desempeño de Vendedores</a>
+        <a href="#">Movimiento por producto</a>
+        <a href="#">Ventas Agrupadas</a>
+        <a href="#">Ventas por Transportador</a>
+        <a href="#">Ventas por Vendedor</a>
+        <a href="#">Salidas y Entradas de inventario</a>
+        <a href="#">Nomina de Vendedores</a>
+        <a href="#">Devoluciones</a>
+        <a href="#">Proyeccion de Vendedores</a>
+        <a href="#">Ventas por Dia</a>
         <a href="#">Pedidos</a>
-        <a href="#">General</a>
+        <a href="#">Informe General de Ventas</a>
       </div>
     </div>
+
     <div class="navigation-bar-row">
+
       <a href="#" class="navigation-bar-title">Nomina</a>
       <div class="navigation-bar-sub-menu">
-        <a href="#">Transportador</a>
+        <a href="#">Transportadores</a>
         <a href="#">Vendedores</a>
       </div>
+
     </div>
     <div class="navigation-bar-row">
+
       <a href="#" class="navigation-bar-title">Prestamos</a>
       <div class="navigation-bar-sub-menu">
-        <a href="#">P.cargue</a>
-        <a href="#">Productos</a>
+        <a href="#">Prestamos Generales</a>
+        <a href="#">Prestamos de Cargue</a>
+        <a href="#">Cuenta por Cobrar Vendedores</a>
       </div>
+
     </div>
     <div class="navigation-bar-row">
       <a href="#" class="navigation-bar-title">Backup</a>
@@ -158,12 +168,6 @@
         <img src="images/iconsSup/search.png" alt="">
         <img src="images/iconsSup/all.png" alt="">
         <img src="images/iconsSup/Export2.png" alt="">
-
-        <a href="inventorySettings.html">
-          <img src="images/inventoryIcons/out.png" alt="">
-        </a>
-        <img src="images/inventoryIcons/caja.png" alt="">
-        <img src="images/inventoryIcons/dev_proveedor.png" alt="">
       </div>
 
       <div class="title titles-color">
@@ -209,7 +213,7 @@
       <div class="table-list-row">
         <p>1680</p>
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>
@@ -249,7 +253,7 @@
       <div class="table-list-row">
         <p>LONCHERAS</p>
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>
@@ -290,7 +294,7 @@
         <p>0</p>
       </div>
 
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>
@@ -329,7 +333,7 @@
       <div class="table-list-row">
         <p>Unidad</p>
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>
@@ -368,7 +372,7 @@
       <div class="table-list-row">
         <p>0.00</p>
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>
@@ -407,7 +411,7 @@
       <div class="table-list-row">
         <p>1.00</p>
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>
@@ -446,7 +450,7 @@
       <div class="table-list-row">
         <p>0.00</p>
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
         <p>8,886,991.51</p>
       </div>
     </div>
@@ -485,7 +489,7 @@
       <div class="table-list-row">
         <p>FAMILIA SANCELA</p>
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>
@@ -524,7 +528,7 @@
       <div class="table-list-row">
         <p>FAMILIA</p>
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>
@@ -563,7 +567,7 @@
       <div class="table-list-row">
         <p>FAMILIA PAPEL HIGIENICOS</p>
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>
@@ -602,7 +606,7 @@
       <div class="table-list-row result block">
         <p>Bloqueado</p>
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>
@@ -641,7 +645,7 @@
       <div class="table-list-row">
         <p>ASUTIENDA</p>
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>
@@ -681,7 +685,7 @@
         <img src="images/tableIcons/edit.png" alt="">
 
       </div>
-      <div class="lis-results table-list-title">
+      <div class="lis-results table-list-bottom-text">
 
       </div>
     </div>

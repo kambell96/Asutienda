@@ -16,9 +16,11 @@
 	border: 1px solid #ddd;
 	padding: 5px;
 }
+/* fin de input estilos */
 
 .module-content-container {
-  margin: 0 15px;
+	margin: 0 15px;
+	padding-bottom: 10px;
 }
 
 .user-details-box-row,.filters-details-box-row {
@@ -29,7 +31,7 @@
 select.input-text {
 	width: 181px;
 	height: 36px;
-	background: #fffafa;
+	background: #ffffff;
 }
 
 .user-details-box-row-label-space {
@@ -37,9 +39,9 @@ select.input-text {
 	height: 45px;
 }
 
-/* aqui termina el cuadro del user */
+
 .user-details-box-row-internal {
-	padding: 0px 15px 0 0px;
+	margin: 0 15px 0 0;
 	height: 100px;
 	width: 212px;
 }
@@ -51,4 +53,54 @@ select.input-text {
 .titles-color{
 	color: #46912F;
 }
+/* aqui termina el cuadro del user */
 
+/* estilos para las tablas */
+.list-container{
+	display: flex;
+	margin: 10px;
+	font-size: 9px;
+}
+
+.table-list-column {
+	flex: auto;
+}
+
+.table-list-row {
+	border: 0.1px solid #d2d2d2;
+	background-color: #ffffff;
+	padding: 4px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.table-list-row-text {
+	width: 35px;
+}
+
+.table-list-title,.table-list-bottom-text {
+	padding: 5px;
+	background: #EEEEFF;
+	border: 0.1px solid #d2d2d2;
+	height: 24px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.result{
+	color: #0000ff;
+}
+
+.block {
+	color: #ff0000;
+}
+
+.active {
+	color: #008000;
+}
+/* aqui terminan los estilos para las tablas */
