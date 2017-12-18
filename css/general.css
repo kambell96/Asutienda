@@ -58,6 +58,13 @@ select.input-text {
 .titles-color{
 	color: #46912F;
 }
+
+@media screen and (max-width:480px){
+	.user-details-box-row{
+		flex-direction: column;
+	}
+}
+
 /* aqui termina los estilos para los formularios */
 
 /* estilos para las tablas */

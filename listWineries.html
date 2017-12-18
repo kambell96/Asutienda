@@ -13,10 +13,161 @@
   <link rel="stylesheet" href="css/titleSup.css">
   <link rel="stylesheet" href="css/tooltipEvent.css">
   <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/menuMobile.css">
+  <script type="text/javascript" src="javascript/menuMobile.js"></script>
+
   <title>::Maestro::</title>
 </head>
 
 <body>
+
+
+
+  <!-- aqui comienza el menu en mobile con el sub menu-->
+  <nav class="mobile-navbar-container &quot;">
+    <div class="open-slide">
+
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+          <path d="M0,5 30,5" stroke="#fff" stroke-width="5"></path>
+          <path d="M0,14 30,14" stroke="#fff" stroke-width="5"></path>
+          <path d="M0,23 30,23" stroke="#fff" stroke-width="5"></path>
+        </svg>
+      </a>
+      <div class="mobile-navbar-title">
+        <div class="mobile-title">
+          <a href="#">Empresa:Asutienda</a>
+        </div>
+        <div class="mobile-user">
+          <a href="#">Usuario:ERICK GARCIA</a>
+        </div>
+        <div class="mobile-icons">
+
+          <a href="#">
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            ayuda</a>
+
+
+          <a href="#">
+            <i class="fa fa-sign-out" aria-hidden="true"></i>
+            ::salir</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="side-menu" class="mobile-navbar-items">
+
+    <div class="navigation-bar-container mobile-container" id="mobile-green-container">
+
+      <a href="#" class="btn-close" onclick="cloeSlideMenu()">&times;</a>
+      <div class="navigation-bar-row mobile-bar-row">
+        <a href="#" class="navigation-bar-title">Maestro</a>
+        <div class="navigation-bar-sub-menu navigation-bar-sub-menu-mobile navigation-scroll-mobile">
+          <a href="#">Empresa</a>
+          <a href="#">Detalles del usuario</a>
+          <a href="#">Productos</a>
+          <a href="#">Kits</a>
+          <a href="#">Clientes</a>
+          <a href="#">Tipo de clientes</a>
+          <a href="#">Usuarios</a>
+          <a href="#">Unidades</a>
+          <a href="#">Bodegas</a>
+          <a href="#">Grupo inventarios</a>
+          <a href="#">ciudades</a>
+          <a href="#">Rutas</a>
+          <a href="#">Ruteros</a>
+          <a href="#">Zonas</a>
+          <a href="#">Vendedores</a>
+          <a href="#">Marcas</a>
+          <a href="#">Categorias</a>
+          <a href="#">Lineas</a>
+          <a href="#">Bancos</a>
+          <a href="#">Concepto gastos</a>
+          <a href="#">Concepto de devolución</a>
+          <a href="#">Gastos</a>
+          <a href="#">Transportador</a>
+          <a href="#">Entidades</a>
+          <a href="#">Conceptos Nomina</a>
+          <a href="#">Archivo Brinsa</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row mobile-bar-row">
+        <a href="#" class="navigation-bar-title">Compras</a>
+        <div class="navigation-bar-sub-menu navigation-bar-sub-menu-mobile navigation-scroll-mobile">
+          <a href="#">Terceros</a>
+          <a href="#">Productos en compras</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row mobile-bar-row">
+        <a href="#" class="navigation-bar-title">Inventario</a>
+        <div class="navigation-bar-sub-menu navigation-bar-sub-menu-mobile navigation-scroll-mobile">
+          <a href="#">Ajustes de inventario</a>
+          <a href="#">Ajustes de costo de ventas</a>
+          <a href="#">Notas de inventario</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row mobile-bar-row">
+        <a href="#" class="navigation-bar-title">Ventas</a>
+        <div class="navigation-bar-sub-menu navigation-bar-sub-menu-mobile navigation-scroll-mobile">
+          <a href="#">Devoluciones</a>
+          <a href="#">Agotados</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row mobile-bar-row">
+        <a href="#" class="navigation-bar-title">Cargue</a>
+      </div>
+      <div class="navigation-bar-row mobile-bar-row">
+        <a href="#" class="navigation-bar-title">Pedidos</a>
+        <div class="navigation-bar-sub-menu navigation-bar-sub-menu-mobile navigation-scroll-mobile">
+          <a href="#">Mensajes</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row mobile-bar-row">
+        <a href="#" class="navigation-bar-title">Informes</a>
+        <div class="navigation-bar-sub-menu navigation-bar-sub-menu-mobile navigation-scroll-mobile">
+          <a href="#">Cuadre diario</a>
+          <a href="#">Rentabilidad por Producto</a>
+          <a href="#">inventarios ala fecha</a>
+          <a href="#">Informe contable</a>
+          <a href="#">Presupuesto de Vendedores</a>
+          <a href="#">Desempeño de Vendedores</a>
+          <a href="#">Movimiento por producto</a>
+          <a href="#">Ventas Agrupadas</a>
+          <a href="#">Ventas por Transportador</a>
+          <a href="#">Ventas por Vendedor</a>
+          <a href="#">Salidas y Entradas de inventario</a>
+          <a href="#">Nomina de Vendedores</a>
+          <a href="#">Devoluciones</a>
+          <a href="#">Proyeccion de Vendedores</a>
+          <a href="#">Ventas por Dia</a>
+          <a href="#">Pedidos</a>
+          <a href="#">Informe General de Ventas</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row mobile-bar-row">
+        <a href="#" class="navigation-bar-title">Nomina</a>
+        <div class="navigation-bar-sub-menu navigation-bar-sub-menu-mobile navigation-scroll-mobile">
+          <a href="#">Transportadores</a>
+          <a href="#">Vendedores</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row mobile-bar-row">
+        <a href="#" class="navigation-bar-title">Prestamos</a>
+        <div class="navigation-bar-sub-menu navigation-bar-sub-menu-mobile navigation-scroll-mobile">
+          <a href="#">Prestamos Generales</a>
+          <a href="#">Prestamos de Cargue</a>
+          <a href="#">Cuenta por Cobrar Vendedores</a>
+        </div>
+      </div>
+      <div class="navigation-bar-row mobile-bar-row">
+        <a href="#" class="navigation-bar-title">Backup</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- aqui termina el menu en mobile con el sub menu-->
 
   <div class="top-bar-container">
     <div class="top-bar-left-side">
