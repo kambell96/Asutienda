@@ -104,7 +104,7 @@ select.input-text {
 	align-items: center;
 }
 
-.result{
+.result,.completed{
 	color: #0000ff;
 }
 
@@ -112,7 +112,7 @@ select.input-text {
 	color: #ff0000;
 }
 
-.active {
+.active,.entered {
 	color: #008000;
 }
 /* aqui terminan los estilos para las tablas */
