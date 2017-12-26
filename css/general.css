@@ -109,14 +109,15 @@ select.input-text {
 	display: flex;
 	margin: 10px;
 	font-size: 9px;
+	border-left: 1px solid #d2d2d2;
 }
 
 .table-list-column {
 	flex: auto;
-	border-left: 1px solid #d2d2d2;
 }
 
 .table-list-row {
+	border-right:  1px solid #d2d2d2;
 	border-bottom: 1px solid #d2d2d2;
 	background-color: #ffffff;
 	padding: 4px;
@@ -137,6 +138,7 @@ select.input-text {
 
 .table-list-title,.table-list-bottom-text {
 	border-bottom: 1px solid #d2d2d2;
+	border-right:  1px solid #d2d2d2;
 	border-top: 1px solid #d2d2d2;
 	padding: 5px;
 	background: #EEEEFF;
@@ -145,6 +147,10 @@ select.input-text {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.table-list-bottom-text{
+	border-top: 0;
 }
 
 .result,.completed{
