@@ -117,7 +117,6 @@ select.input-text {
 }
 
 .table-list-row {
-
 	border-bottom: 1px solid #d2d2d2;
 	background-color: #ffffff;
 	padding: 4px;
@@ -137,7 +136,6 @@ select.input-text {
 }
 
 .table-list-title,.table-list-bottom-text {
-
 	border-bottom: 1px solid #d2d2d2;
 	border-top: 1px solid #d2d2d2;
 	padding: 5px;
