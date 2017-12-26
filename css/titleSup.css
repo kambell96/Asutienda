@@ -1,4 +1,4 @@
-.principal-title {
+.principal-title-icons-container {
 	padding: 6px 10px 0 10px;
 	display: flex;
 	background: #EEEEFF;;
@@ -7,9 +7,30 @@
 .title {
 	width: 60%;
 }
-.principal-title-container{
+.module-icons-bar-imagesr{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-basis: 100%;
+}
+
+.brinsa-title{
+	justify-content: center;
+	display: flex;
+	flex-basis: 80%;
+}
+
+@media screen and (max-width:480px){
+	.principal-title-icons-container{
+		flex-direction: column-reverse;
+		display: flex;
+		padding: 15px 15px 0;
+	}
+	
+	.title{
+		font-size: 14px;
+		padding-bottom: 10px;
+		width: 92%;
+	}
+
 }

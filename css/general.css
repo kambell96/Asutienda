@@ -9,6 +9,38 @@
 	cursor: pointer;
 }
 
+.change-page {
+	height: 23px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-top: 10px;
+	max-width: 92%;
+	font-family: Verdana;
+	color: #333333;
+	font-size: 12px;
+}
+
+.change-page-sep {
+	padding: 0 5px 0 10px;
+}
+
+input.change-page-buton,select {
+	height: 20px;
+	width: 40px;
+}
+
+.change-page-select{
+	height: 25px;
+	border: 1px solid #999999;
+	background-image: url(../images/iconsSup/bg_campos_texto.jpg);
+}
+
+.change-page-img {
+	display: flex;
+	align-self: stretch;
+}
+
 .input-text{
 	width: 169px;
 	height: 26px;
@@ -20,7 +52,7 @@
 
 /* estilos para los formularios */
 .module-content-container {
-	margin: 0 15px;
+	margin: 20px 15px 15px;
 	padding-bottom: 10px;
 }
 
@@ -50,7 +82,7 @@ select.input-text {
 	padding-bottom: 5px;
 }
 
-.sales-page-title {
+.module-page-title-container {
 	margin: 20px 0 20px 0;
 }
 
@@ -61,6 +93,12 @@ select.input-text {
 @media screen and (max-width:480px){
 	.user-details-box-row{
 		flex-direction: column;
+		align-items: center;
+	}
+
+	.module-page-title-container {
+		text-align: center;
+		font-size: 14px;
 	}
 }
 
@@ -75,10 +113,12 @@ select.input-text {
 
 .table-list-column {
 	flex: auto;
+	border-left: 1px solid #d2d2d2;
 }
 
 .table-list-row {
-	border: 0.1px solid #d2d2d2;
+
+	border-bottom: 1px solid #d2d2d2;
 	background-color: #ffffff;
 	padding: 4px;
 	height: 20px;
@@ -97,9 +137,11 @@ select.input-text {
 }
 
 .table-list-title,.table-list-bottom-text {
+
+	border-bottom: 1px solid #d2d2d2;
+	border-top: 1px solid #d2d2d2;
 	padding: 5px;
 	background: #EEEEFF;
-	border: 0.1px solid #d2d2d2;
 	height: 24px;
 	font-weight: bold;
 	display: flex;
