@@ -3,8 +3,9 @@
 .mobile-navbar-container{
 	background-color:  #46912F;
 	display: flex;
-	padding: 14px 16px;
 	height: 63px;
+	padding: 15px;
+	flex:auto;
 }
 
 .mobile-navbar-items{
@@ -13,6 +14,7 @@
 	opacity: 0.9;
 	transition: all 0.5s;
 	position: absolute;
+	z-index: 10;
 }
 
 .mobile-navbar-items a {
@@ -39,95 +41,7 @@
 	position: relative;
 }
 
-.open-slide {
-  display: flex;
-}
-
-.mobile-navbar-title {
-  font-size: 18px;
-  margin: 0 0px 0px 12px;
-}
-
-.mobile-navbar-title a {
-	color: #ffff;
-	text-decoration: none;
-	padding: 0 0 0 18px;
-}
-
 /*aqui termina la barra despegable */
-
-/* empiezo con los estilos de las barritas hr */
-div.line-color{
-	width: 85px;
-	background-color: #c9fc7e;
-	border-bottom-left-radius: 10px;
-	border-top-left-radius: 10px;
-	height: 20px;
-	border: 1px solid white;
-	margin-top: 5px;
-}
-
-hr {    
-	border: 0;
-	border-bottom-left-radius: 10px;
-	border-top-left-radius: 10px;
-	height: 2px;
-	background: #ffffff;
-	margin: 5px;
-}
-/*aqui termina las barras hr */
-
-@media screen and (max-width:480px) {
-    
-	.menu-modules-row{
-		width: 60%;
-		height: auto;
-		margin: 0 auto;
-		flex-direction: column;
-	}
-
-	nav p{
-		font-size: 12px;
-	}
-
-	.box-text{
-		max-width: 50%;
-		padding-top: 10px;
-	}
-
-	.box-text span {
-		font-size: 16px;
-	}
-
-	.top-bar-container{
-		display: none;
-	}
-
-	.img-module {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-		img {
-		width: 70px;
-		height: 70px;
-	}
-
-	.line{
-		max-width: 100%;
-	}
-
-	div.line-color{
-		width: 118%;
-	}
-
-	.menu-modules-box {
-		width: 200px;
-		height: 100px;
-	}
-
-}
 
 @media screen and (min-width:480px) {
   
@@ -145,3 +59,13 @@ hr {
     
 }
 
+@media screen and (max-width:480px) {
+  
+	.top-bar-container{
+		display: none;
+	}
+
+	.navigation-bar-container{
+		display: none;
+	}
+}

@@ -42,7 +42,6 @@ img{
 }
 
 .box-text span{
-	color: #46912F;
 	font: bold 14px/20px Helvetica, Sans-Serif;
 	font-size: 11px;
 	line-height: 1.4;
@@ -54,4 +53,79 @@ img{
 
 .box-text:hover span{
 	color: #d3e623;
+}
+
+
+/* empiezo con los estilos de las barritas hr */
+div.line-color{
+	width: 85px;
+	background-color: #c9fc7e;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	height: 20px;
+	border: 1px solid white;
+	margin-top: 5px;
+}
+
+hr {    
+	border: 0;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	height: 2px;
+	background: #ffffff;
+	margin: 5px;
+}
+/*aqui termina las barras hr */
+
+@media screen and (max-width:480px) {
+    
+	.menu-modules-row{
+		/* width: 60%; */
+		height: auto;
+		margin: 0 auto;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	nav p{
+		font-size: 12px;
+	}
+
+	.box-text{
+		max-width: 50%;
+		padding-top: 10px;
+	}
+
+	.box-text span {
+		font-size: 16px;
+	}
+
+	.menu-modules-top-bar-mobile{
+		display: none;
+	}
+
+	.img-module {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+		img {
+		width: 50px;
+		height: 50px;
+	}
+
+	.line{
+		max-width: 100%;
+	}
+
+	div.line-color{
+		width: 118%;
+	}
+
+	.menu-modules-box {
+		width: 200px;
+		height: 100px;
+	}
+
 }

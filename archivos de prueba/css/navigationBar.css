@@ -15,7 +15,11 @@
 .navigation-bar-sub-menu {
 	display: none;
 	position: absolute;
+	top: 44px;
+	left: 0;
+	right: 0;
 	background-color: #46912F;
+	z-index: 10;
 }
 
 .navigation-bar-row:hover .navigation-bar-sub-menu {
@@ -34,7 +38,7 @@
 	background-color: #3fb83a;
 }
 
-	.navigation-bar-sub-menu a:hover {
+.navigation-bar-sub-menu a:hover {
 	background-color: #3fb83a;
 }
 
@@ -57,7 +61,7 @@
 
 .mobile-bar-row {
 	display: flex;
-	padding: 5px 0 5px 0px;
+  padding: 5px 0 5px 0px;
 }
 
 .mobile-bar-row .navigation-bar-title:hover  {
@@ -76,6 +80,25 @@
 
 .navigation-scroll-mobile{
 	overflow: auto;
-	height: 331px;
+	max-height: 320px;
 	width: 69%;
+}
+
+.open-slide {
+  display: flex;
+}
+
+.mobile-navbar-title {
+  font-size: 18px;
+  margin: 0 0px 0px 12px;
+}
+
+.mobile-navbar-title a {
+	color: #ffff;
+	text-decoration: none;
+	padding: 0 0 0 18px;
+}
+
+.navigation-bar-sub-menu.navigation-bar-sub-menu-mobile.navigation-scroll-mobile a {
+  padding: 10px 10px 10px 10px;
 }

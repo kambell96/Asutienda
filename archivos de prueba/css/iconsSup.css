@@ -2,5 +2,6 @@
   margin-right: auto;
 }
 .module-icons-bar-images img {
-	padding: 5px;
+  padding: 5px;
+  cursor: pointer;
 }
