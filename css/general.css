@@ -108,6 +108,10 @@ select.input-text {
 		justify-content: center;
 		width: 80%;
 	}
+
+	.list-container {
+    flex-direction: column;
+	}
 }
 
 /* aqui termina los estilos para los formularios */

@@ -7,3 +7,5 @@ function cloeSlideMenu() {
 	document.getElementById('side-menu').style.width = '0';
 	document.getElementById('mobile-green-container').style.display = 'none';
 }
+
+
