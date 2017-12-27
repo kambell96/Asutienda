@@ -113,9 +113,6 @@ select.input-text {
     flex-direction: column;
 	}
 
-	.table-list-column .table-list-row {
-    display: none;
-	}
 }
 
 /* aqui termina los estilos para los formularios */
