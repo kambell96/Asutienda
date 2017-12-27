@@ -111,6 +111,11 @@ select.input-text {
 	margin: 10px;
 	font-size: 9px;
 	border-left: 1px solid #d2d2d2;
+	flex-direction: column;
+}
+
+.table-list-column .table-list-row {
+	display: none;
 }
 
 .table-list-column {
