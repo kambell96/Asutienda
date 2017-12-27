@@ -114,10 +114,6 @@ select.input-text {
 	flex-direction: column;
 }
 
-.table-list-column .table-list-row {
-	display: none;
-}
-
 .table-list-column {
 	flex: auto;
 }
