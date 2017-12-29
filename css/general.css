@@ -92,20 +92,36 @@ select.input-text {
 }
 
 @media screen and (max-width:480px){
-	.user-details-box-row{
+  .module-content-container {
+    margin: 20px 20px 15px;
+  }
+   
+  
+  .user-details-box-row{
 		flex-direction: column;
 		margin: 0;
-	}
+  }
+  
+  .user-details-box-row input.input-text{
+    width: 90%;
+  }
 
 	.module-page-title-container {
 		font-size: 14px;
 	}
 
+  .user-details-box-row-internal {
+    margin: 20px 0 0 0;
+  }
+
 	.user-details-box-row-internal.boton-submit {
 		display: flex;
 		justify-content: center;
-		width: 80%;
-	}
+  }
+  
+  select.input-text {
+    width: 96%;
+  }
 
 	.list-container {
 		flex-direction: column;
@@ -113,8 +129,9 @@ select.input-text {
 
 	.list-container .table-list-row {
 		display: none;
-	}
-
+  }
+  
+ 
 }
 
 /* aqui termina los estilos para los formularios */
