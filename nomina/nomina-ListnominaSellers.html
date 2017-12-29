@@ -14,7 +14,8 @@
 	<link rel="stylesheet" href="../css/titleSup.css">
 	<link rel="stylesheet" href="../css/menuMobile.css">
 	<script type="text/javascript" src="../javascript/menuMobile.js"></script>
-	<title>::Maestro::</title>
+
+	<title>::Nomina::</title>
 </head>
 
 <body>
@@ -41,13 +42,10 @@
 				<div class="mobile-icons">
 
 					<a href="#">
-						<i class="fa fa-question-circle" aria-hidden="true"></i>
-						ayuda</a>
-
+						<i class="fa fa-question-circle" aria-hidden="true"></i>ayuda</a>
 
 					<a href="#">
-						<i class="fa fa-sign-out" aria-hidden="true"></i>
-						::salir</a>
+						<i class="fa fa-sign-out" aria-hidden="true"></i>::salir</a>
 
 				</div>
 			</div>
@@ -169,7 +167,7 @@
 
 	<div class="top-bar-container">
 		<div class="top-bar-left-side">
-			<p>::Maestro::</p>
+			<p>::Nomina::</p>
 		</div>
 		<div class="top-bar-right-side">
 			<div class="top-bar-right-side-separation">
@@ -313,15 +311,17 @@
 	<div class="principal-title-icons-container">
 
 		<div class="module-icons-bar-images">
-			<img src="../images/iconsSup/save.png" alt="">
+			<img src="../images/iconsSup/add-files.png" alt="">
+			<img src="../images/iconsSup/add.png" alt="">
+			<img src="../images/iconsSup/search.png" alt="">
+			<img src="../images/iconsSup/all.png" alt="">
 		</div>
 
 		<div class="principal-title titles-color">
-			<h1>Detalles del usuario</h1>
+			<h1>Listado Nominas de Vendedores</h1>
 		</div>
 
 	</div>
-
 
 
 	<div class="module-content-container">
@@ -331,28 +331,30 @@
 
 			<div class="user-details-box-row-internal">
 				<div class="label-space">
-					<label for="cedula" class="user-details-label label-sepa">Cedula:</label>
+					<label for="cedula" class="user-details-label label-sepa">ID:</label>
 				</div>
 				<input type="text" class="input-text">
 			</div>
 
 			<div class="user-details-box-row-internal">
 				<div class="label-space">
-					<label for="name" class="user-details-label">Nombre:</label>
+					<label for="name" class="user-details-label">Vendedor:</label>
+				</div>
+				<select name="rol" class="input-text" disabled>
+					<option value="general" class="input-text">General</option>
+				</select>
+			</div>
+
+			<div class="user-details-box-row-internal">
+				<div class="label-space">
+					<label for="number-phone" class="user-details-label">Fecha Inicio:</label>
 				</div>
 				<input type="text" class="input-text">
 			</div>
 
 			<div class="user-details-box-row-internal">
 				<div class="label-space">
-					<label for="number-phone" class="user-details-label">Dirección:</label>
-				</div>
-				<input type="text" class="input-text">
-			</div>
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="address" class="user-details-label">Teléfono:</label>
+					<label for="address" class="user-details-label">Fecha Final:</label>
 				</div>
 				<input type="text" class="input-text">
 			</div>
@@ -362,34 +364,23 @@
 
 			<div class="user-details-box-row-internal">
 				<div class="label-space">
-					<label for="password" class="user-details-label">Contraseña:</label>
-				</div>
-				<input type="password" class="input-text">
-			</div>
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="bodega" class="user-details-label">Bodega:</label>
+					<label for="password" class="user-details-label">Estado:</label>
 				</div>
 				<select name="bodega" class="input-text">
 					<option value="admin" class="input-text">admin</option>
-					<option value="asutienda" class="input-text">ASUTIENDA</option>
+					<option value="asutienda" class="input-text">Activo</option>+
+					<option value="asutienda" class="input-text">Inactivo</option>
+					<option value="asutienda" class="input-text">Nulo</option>
 				</select>
 			</div>
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="rol" class="user-details-label">rol:</label>
-				</div>
-				<select name="rol" class="input-text" disabled>
-					<option value="general" class="input-text">General</option>
-				</select>
-			</div>
-
 
 		</div>
-
+		<div class="user-details-box-row-internal boton-submit">
+			<input type="submit" class="boton" value="Enviar">
+		</div>
 	</div>
+
+
 
 </body>
 

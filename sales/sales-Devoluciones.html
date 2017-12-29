@@ -14,10 +14,12 @@
 	<link rel="stylesheet" href="../css/titleSup.css">
 	<link rel="stylesheet" href="../css/menuMobile.css">
 	<script type="text/javascript" src="../javascript/menuMobile.js"></script>
-	<title>::Maestro::</title>
+
+	<title>::Ventas::</title>
 </head>
 
 <body>
+
 
 
 	<!-- aqui comienza el menu en mobile con el sub menu-->
@@ -166,10 +168,9 @@
 
 	<!-- aqui termina el menu en mobile con el sub menu-->
 
-
 	<div class="top-bar-container">
 		<div class="top-bar-left-side">
-			<p>::Maestro::</p>
+			<p>::Ventas::</p>
 		</div>
 		<div class="top-bar-right-side">
 			<div class="top-bar-right-side-separation">
@@ -199,6 +200,7 @@
 		</div>
 
 	</div>
+
 	<div class="navigation-bar-container">
 		<div class="navigation-bar-row">
 			<a href="#" class="navigation-bar-title">Maestro</a>
@@ -313,46 +315,48 @@
 	<div class="principal-title-icons-container">
 
 		<div class="module-icons-bar-images">
-			<img src="../images/iconsSup/save.png" alt="">
+			<img src="../images/iconsSup/search.png" alt="">
+			<img src="../images/iconsSup/search_elimine.png" alt="">
 		</div>
 
 		<div class="principal-title titles-color">
-			<h1>Detalles del usuario</h1>
+			<h1>Devoluciones</h1>
 		</div>
 
 	</div>
 
 
-
 	<div class="module-content-container">
-
+		<div class="module-page-title-container titles-color">
+			<h2>Ingresa un criterio de busqueda</h2>
+		</div>
 
 		<div class="user-details-box-row">
 
 			<div class="user-details-box-row-internal">
 				<div class="label-space">
-					<label for="cedula" class="user-details-label label-sepa">Cedula:</label>
+					<label for="cedula" class="user-details-label label-sepa">Factura:</label>
 				</div>
 				<input type="text" class="input-text">
 			</div>
 
 			<div class="user-details-box-row-internal">
 				<div class="label-space">
-					<label for="name" class="user-details-label">Nombre:</label>
+					<label for="name" class="user-details-label">NIT/CC:</label>
 				</div>
 				<input type="text" class="input-text">
 			</div>
 
 			<div class="user-details-box-row-internal">
 				<div class="label-space">
-					<label for="number-phone" class="user-details-label">Dirección:</label>
+					<label for="number-phone" class="user-details-label">Cliente:</label>
 				</div>
 				<input type="text" class="input-text">
 			</div>
 
 			<div class="user-details-box-row-internal">
 				<div class="label-space">
-					<label for="address" class="user-details-label">Teléfono:</label>
+					<label for="address" class="user-details-label">Codigo:</label>
 				</div>
 				<input type="text" class="input-text">
 			</div>
@@ -362,14 +366,46 @@
 
 			<div class="user-details-box-row-internal">
 				<div class="label-space">
-					<label for="password" class="user-details-label">Contraseña:</label>
+					<label for="password" class="user-details-label">Producto:</label>
 				</div>
 				<input type="password" class="input-text">
 			</div>
 
 			<div class="user-details-box-row-internal">
 				<div class="label-space">
-					<label for="bodega" class="user-details-label">Bodega:</label>
+					<label for="cliente" class="user-details-label">Nombre:</label>
+				</div>
+				<input type="password" class="input-text">
+			</div>
+
+			<div class="user-details-box-row-internal">
+				<div class="label-space">
+					<label for="rol" class="user-details-label">Producto:</label>
+				</div>
+				<input type="password" class="input-text">
+			</div>
+			<div class="user-details-box-row-internal">
+				<div class="label-space">
+					<label for="password" class="user-details-label">Fecha Inicio:</label>
+				</div>
+				<input type="password" class="input-text">
+			</div>
+
+
+		</div>
+
+		<div class="user-details-box-row">
+
+			<div class="user-details-box-row-internal">
+				<div class="label-space">
+					<label for="password" class="user-details-label">Fecha Final:</label>
+				</div>
+				<input type="password" class="input-text">
+			</div>
+
+			<div class="user-details-box-row-internal">
+				<div class="label-space">
+					<label for="bodega" class="user-details-label">Vendedor:</label>
 				</div>
 				<select name="bodega" class="input-text">
 					<option value="admin" class="input-text">admin</option>
@@ -379,16 +415,45 @@
 
 			<div class="user-details-box-row-internal">
 				<div class="label-space">
-					<label for="rol" class="user-details-label">rol:</label>
+					<label for="rol" class="user-details-label">Transportador:</label>
 				</div>
-				<select name="rol" class="input-text" disabled>
-					<option value="general" class="input-text">General</option>
+				<select name="bodega" class="input-text">
+					<option value="admin" class="input-text">admin</option>
+					<option value="asutienda" class="input-text">ASUTIENDA</option>
+				</select>
+
+			</div>
+
+			<div class="user-details-box-row-internal">
+				<div class="label-space">
+					<label for="password" class="user-details-label">Concepto:</label>
+				</div>
+				<select name="bodega" class="input-text">
+					<option value="admin" class="input-text">admin</option>
+					<option value="asutienda" class="input-text">ASUTIENDA</option>
 				</select>
 			</div>
 
 
 		</div>
 
+		<div class="user-details-box-row">
+
+			<div class="user-details-box-row-internal">
+				<div class="label-space">
+					<label for="password" class="user-details-label">Afecta Transp:</label>
+				</div>
+				<select name="bodega" class="input-text">
+					<option value="admin" class="input-text">admin</option>
+					<option value="asutienda" class="input-text">SI</option>
+					<option value="asutienda" class="input-text">NO</option>
+				</select>
+			</div>
+
+		</div>
+		<div class="user-details-box-row-internal boton-submit">
+			<input type="submit" class="boton" value="Enviar">
+		</div>
 	</div>
 
 </body>

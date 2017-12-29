@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="../css/titleSup.css">
 	<link rel="stylesheet" href="../css/menuMobile.css">
 	<script type="text/javascript" src="../javascript/menuMobile.js"></script>
-	<title>::Maestro::</title>
+	<title>:: Compras ::</title>
 </head>
 
 <body>
@@ -169,7 +169,7 @@
 
 	<div class="top-bar-container">
 		<div class="top-bar-left-side">
-			<p>::Maestro::</p>
+			<p>::Compras ::</p>
 		</div>
 		<div class="top-bar-right-side">
 			<div class="top-bar-right-side-separation">
@@ -199,6 +199,7 @@
 		</div>
 
 	</div>
+
 	<div class="navigation-bar-container">
 		<div class="navigation-bar-row">
 			<a href="#" class="navigation-bar-title">Maestro</a>
@@ -313,83 +314,420 @@
 	<div class="principal-title-icons-container">
 
 		<div class="module-icons-bar-images">
-			<img src="../images/iconsSup/save.png" alt="">
+			<img src="../images/iconsSup/add-files.png" alt="">
+			<img src="../images/iconsSup/search.png" alt="">
+			<img src="../images/iconsSup/all.png" alt="">
 		</div>
 
 		<div class="principal-title titles-color">
-			<h1>Detalles del usuario</h1>
+			<h1>Listado de terceros</h1>
 		</div>
 
 	</div>
 
-
-
-	<div class="module-content-container">
-
-
-		<div class="user-details-box-row">
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="cedula" class="user-details-label label-sepa">Cedula:</label>
-				</div>
-				<input type="text" class="input-text">
-			</div>
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="name" class="user-details-label">Nombre:</label>
-				</div>
-				<input type="text" class="input-text">
-			</div>
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="number-phone" class="user-details-label">Dirección:</label>
-				</div>
-				<input type="text" class="input-text">
-			</div>
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="address" class="user-details-label">Teléfono:</label>
-				</div>
-				<input type="text" class="input-text">
-			</div>
+	<div class="change-page">
+		<div class="change-page-sep">
+			<p>Pagina</p>
 		</div>
 
-		<div class="user-details-box-row">
+		<input type="text" class="change-page-buton">
 
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="password" class="user-details-label">Contraseña:</label>
-				</div>
-				<input type="password" class="input-text">
+		<div class="change-page-sep">
+			<p>/57</p>
+		</div>
+
+		<div class="change-page-sep">
+			<p>Por pagina:</p>
+		</div>
+
+		<select name="for-page" id="" class="change-page-buton change-page-select">
+			<option value="10">10</option>
+			<option selected="selected" value="30">30</option>
+			<option value="50">50</option>
+			<option value="100">100</option>
+			<option value="100000">Todos</option>
+		</select>
+
+		<div class="change-page-sep">
+			<p>(1 - 30 of 1689)</p>
+		</div>
+		<div class="change-page-img">
+			<img src="../images/iconsSup/btn_next.jpg " alt=" ">
+		</div>
+	</div>
+
+
+	<div class="list-container">
+
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Nit</p>
+			</div>
+			<div class="table-list-row">
+				<p>890.900.161-9</p>
+			</div>
+			<div class="table-list-row">
+				<p>860000135-6</p>
+			</div>
+			<div class="table-list-row">
+				<p>900402426</p>
+			</div>
+			<div class="table-list-row">
+				<p>800093056</p>
+			</div>
+			<div class="table-list-row">
+				<p>800221789</p>
+			</div>
+			<div class="table-list-row">
+				<p>811006789</p>
+			</div>
+			<div class="table-list-row">
+				<p>22058837-8</p>
+			</div>
+			<div class="table-list-row">
+				<p>800131750-1</p>
+			</div>
+			<div class="table-list-row">
+				<p>860501145-1</p>
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
 			</div>
 
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="bodega" class="user-details-label">Bodega:</label>
-				</div>
-				<select name="bodega" class="input-text">
-					<option value="admin" class="input-text">admin</option>
-					<option value="asutienda" class="input-text">ASUTIENDA</option>
-				</select>
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Nombre</p>
+			</div>
+			<div class="table-list-row">
+				<p>Familia</p>
+			</div>
+			<div class="table-list-row">
+				<p>AZUL K</p>
+			</div>
+			<div class="table-list-row">
+				<p>ASUTIENDA</p>
+			</div>
+			<div class="table-list-row">
+				<p>BIC</p>
+			</div>
+			<div class="table-list-row">
+				<p>BRINSA</p>
+			</div>
+			<div class="table-list-row">
+				<p>JUAN D HOYOS</p>
+			</div>
+			<div class="table-list-row">
+				<p>LA GLORIETA</p>
+			</div>
+			<div class="table-list-row">
+				<p>INDUSTRIAS CORY SAS</p>
+			</div>
+			<div class="table-list-row">
+				<p>LA DUQUESA S.A</p>
+			</div>
+			<div class="table-list-row">
+				<p>EXPERTIENDAS</p>
 			</div>
 
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="rol" class="user-details-label">rol:</label>
-				</div>
-				<select name="rol" class="input-text" disabled>
-					<option value="general" class="input-text">General</option>
-				</select>
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Tipo</p>
+			</div>
+			<div class="table-list-row">
+				<p>proveedor</p>
+			</div>
+			<div class="table-list-row">
+				<p>proveedor</p>
+			</div>
+			<div class="table-list-row">
+				<p>proveedor</p>
+			</div>
+			<div class="table-list-row">
+				<p>proveedor</p>
+			</div>
+			<div class="table-list-row">
+				<p>proveedor</p>
+			</div>
+			<div class="table-list-row">
+				<p>proveedor</p>
+			</div>
+			<div class="table-list-row">
+				<p>proveedor</p>
+			</div>
+			<div class="table-list-row">
+				<p>proveedor</p>
+			</div>
+			<div class="table-list-row">
+				<p>proveedor</p>
+			</div>
+			<div class="table-list-row">
+				<p>proveedor</p>
 			</div>
 
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Telefono</p>
+			</div>
+			<div class="table-list-row">
+				<p>3609660</p>
+			</div>
+			<div class="table-list-row">
+				<p>3721245</p>
+			</div>
+			<div class="table-list-row">
+				<p>4112484</p>
+			</div>
+			<div class="table-list-row">
+				<p>4269000</p>
+			</div>
+			<div class="table-list-row">
+				<p>3137575</p>
+			</div>
+			<div class="table-list-row">
+				<p>4448018</p>
+			</div>
+			<div class="table-list-row">
+				<p>4449101</p>
+			</div>
+			<div class="table-list-row">
+				<p>4442679</p>
+			</div>
+			<div class="table-list-row">
+				<p>018000944040</p>
+			</div>
+			<div class="table-list-row">
+				<p>5967866</p>
+			</div>
+
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Celular</p>
+			</div>
+			<div class="table-list-row">
+
+			</div>
+			<div class="table-list-row">
+				<p>3721100</p>
+			</div>
+			<div class="table-list-row">
+				<p>3117710076</p>
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+			<div class="table-list-row">
+				<p>3137575</p>
+			</div>
+			<div class="table-list-row">
+				<p>4448018</p>
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+			<div class="table-list-row">
+				<p>3617750</p>
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+			<div class="table-list-row">
+				<p>3178931315</p>
+			</div>
+
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Email</p>
+			</div>
+			<div class="table-list-row">
+
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+			<div class="table-list-row">
+				<p>ASUITENDA@YAHOO.COM</p>
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+			<div class="table-list-row">
+				<p>WWW.CORY.COM.CO</p>
+			</div>
+			<div class="table-list-row">
+				<p>WWW.DUQUESA.COM.CO</p>
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Dirección</p>
+			</div>
+			<div class="table-list-row">
+
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+			<div class="table-list-row">
+				<p>AV 39 73-48</p>
+			</div>
+			<div class="table-list-row">
+				<p>CR 85D 46A-65 BD 20</p>
+			</div>
+			<div class="table-list-row">
+				<p>CLL 5A 39-194</p>
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+			<div class="table-list-row">
+				<p>CLL 51 45-59</p>
+			</div>
+			<div class="table-list-row">
+				<p>CLL 10 SUR 50FF-42</p>
+			</div>
+			<div class="table-list-row">
+				<p>CR 106 17B-86</p>
+			</div>
+			<div class="table-list-row">
+				<p>0</p>
+			</div>
+
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Estado</p>
+			</div>
+			<div class="table-list-row">
+				<p>Activo</p>
+			</div>
+			<div class="table-list-row">
+				<p>Activo</p>
+			</div>
+			<div class="table-list-row">
+				<p>Activo</p>
+			</div>
+			<div class="table-list-row">
+				<p>Activo</p>
+			</div>
+			<div class="table-list-row">
+				<p>Activo</p>
+			</div>
+			<div class="table-list-row">
+				<p>Activo</p>
+			</div>
+			<div class="table-list-row">
+				<p>Activo</p>
+			</div>
+			<div class="table-list-row">
+				<p>Activo</p>
+			</div>
+			<div class="table-list-row">
+				<p>Activo</p>
+			</div>
+			<div class="table-list-row">
+				<p>Activo</p>
+			</div>
+
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Editar</p>
+			</div>
+			<div class="table-list-row">
+				<img src="../images/tableIcons/edit.png" alt="">
+			</div>
+			<div class="table-list-row">
+				<img src="../images/tableIcons/edit.png" alt="">
+			</div>
+			<div class="table-list-row">
+				<img src="../images/tableIcons/edit.png" alt="">
+			</div>
+			<div class="table-list-row">
+				<img src="../images/tableIcons/edit.png" alt="">
+			</div>
+			<div class="table-list-row">
+				<img src="../images/tableIcons/edit.png" alt="">
+			</div>
+			<div class="table-list-row">
+				<img src="../images/tableIcons/edit.png" alt="">
+			</div>
+			<div class="table-list-row">
+				<img src="../images/tableIcons/edit.png" alt="">
+			</div>
+			<div class="table-list-row">
+				<img src="../images/tableIcons/edit.png" alt="">
+			</div>
+			<div class="table-list-row">
+				<img src="../images/tableIcons/edit.png" alt="">
+			</div>
+			<div class="table-list-row">
+				<img src="../images/tableIcons/edit.png" alt="">
+
+			</div>
 
 		</div>
 
 	</div>
+
+	<div class="change-page">
+		<div class="change-page-sep">
+			<p>Pagina</p>
+		</div>
+
+		<input type="text" class="change-page-buton">
+
+		<div class="change-page-sep">
+			<p>/57</p>
+		</div>
+
+		<div class="change-page-sep">
+			<p>Por pagina:</p>
+		</div>
+
+		<select name="for-page" id="" class="change-page-buton change-page-select">
+			<option value="10">10</option>
+			<option selected="selected" value="30">30</option>
+			<option value="50">50</option>
+			<option value="100">100</option>
+			<option value="100000">Todos</option>
+		</select>
+
+		<div class="change-page-sep">
+			<p>(1 - 30 of 1689)</p>
+		</div>
+		<div class="change-page-img">
+			<img src="../images/iconsSup/btn_next.jpg " alt=" ">
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../javascript/tableMobile.js"></script>
 
 </body>
 

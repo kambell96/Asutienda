@@ -4,14 +4,24 @@
 	background: #EEEEFF;;
 }
 
-.title {
+.principal-title {
 	width: 60%;
 }
+
+.principal-title h1 {
+	font-size: 26px;
+}
+
+
 .module-icons-bar-imagesr{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-basis: 100%;
+}
+
+.module-page-title-container h2 {
+	font-size: 22px;
 }
 
 .brinsa-title{
@@ -27,10 +37,17 @@
 		padding: 15px 15px 0;
 	}
 	
-	.title{
-		font-size: 14px;
+	.principal-title{
 		padding-bottom: 10px;
-		width: 92%;
+		width: 95%;
+	}
+
+	.principal-title h1 {
+		font-size: 20px;
+	}
+
+	.module-page-title-container h2 {
+		font-size: 16px;
 	}
 
 }

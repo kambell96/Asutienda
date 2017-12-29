@@ -13,12 +13,11 @@
 	<link rel="stylesheet" href="../css/iconsSup.css">
 	<link rel="stylesheet" href="../css/titleSup.css">
 	<link rel="stylesheet" href="../css/menuMobile.css">
-	<script type="text/javascript" src="../javascript/menuMobile.js"></script>
-	<title>::Maestro::</title>
+	<script type="text/javascript" src="javascript/menuMobile.js"></script>
+	<title>:: Prestamos ::</title>
 </head>
 
 <body>
-
 
 	<!-- aqui comienza el menu en mobile con el sub menu-->
 	<nav class="mobile-navbar-container &quot;">
@@ -169,7 +168,7 @@
 
 	<div class="top-bar-container">
 		<div class="top-bar-left-side">
-			<p>::Maestro::</p>
+			<p>:: Prestamos ::</p>
 		</div>
 		<div class="top-bar-right-side">
 			<div class="top-bar-right-side-separation">
@@ -199,6 +198,7 @@
 		</div>
 
 	</div>
+
 	<div class="navigation-bar-container">
 		<div class="navigation-bar-row">
 			<a href="#" class="navigation-bar-title">Maestro</a>
@@ -313,83 +313,364 @@
 	<div class="principal-title-icons-container">
 
 		<div class="module-icons-bar-images">
-			<img src="../images/iconsSup/save.png" alt="">
+			<img src="../images/iconsSup/search.png" alt="">
+			<img src="../images/iconsSup/all.png" alt="">
 		</div>
 
 		<div class="principal-title titles-color">
-			<h1>Detalles del usuario</h1>
+			<h1>Prestamos de Cargue</h1>
 		</div>
 
 	</div>
 
 
+	<div class="change-page">
+		<div class="change-page-sep">
+			<p>Pagina</p>
+		</div>
 
-	<div class="module-content-container">
+		<input type="text" class="change-page-buton">
+
+		<div class="change-page-sep">
+			<p>/57</p>
+		</div>
+
+		<div class="change-page-sep">
+			<p>Por pagina:</p>
+		</div>
+
+		<select name="for-page" id="" class="change-page-buton change-page-select">
+			<option value="10">10</option>
+			<option selected="selected" value="30">30</option>
+			<option value="50">50</option>
+			<option value="100">100</option>
+			<option value="100000">Todos</option>
+		</select>
+
+		<div class="change-page-sep">
+			<p>(1 - 30 of 1689)</p>
+		</div>
+		<div class="change-page-img">
+			<img src="../images/iconsSup/btn_next.jpg " alt=" ">
+		</div>
+	</div>
+
+	<div class="list-container">
 
 
-		<div class="user-details-box-row">
+		<div class="table-list-column" onclick="ShowRows(this)">
 
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="cedula" class="user-details-label label-sepa">Cedula:</label>
-				</div>
-				<input type="text" class="input-text">
+			<div class="table-list-title">
+				<p>Cargue</p>
 			</div>
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="name" class="user-details-label">Nombre:</label>
-				</div>
-				<input type="text" class="input-text">
+			<div class="table-list-row">
+				<p>9875</p>
 			</div>
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="number-phone" class="user-details-label">Dirección:</label>
-				</div>
-				<input type="text" class="input-text">
+			<div class="table-list-row">
+				<p>9848</p>
 			</div>
+			<div class="table-list-row">
+				<p>9846</p>
+			</div>
+			<div class="table-list-row">
+				<p>9841</p>
+			</div>
+			<div class="table-list-row">
+				<p>9836</p>
+			</div>
+			<div class="table-list-row">
+				<p>9815</p>
+			</div>
+			<div class="table-list-row">
+				<p>9808</p>
+			</div>
+			<div class="table-list-row">
+				<p>9761</p>
+			</div>
+			<div class="table-list-row">
+				<p>9727</p>
+			</div>
+			<div class="table-list-row">
+				<p>9725</p>
+			</div>
+			<div class="lis-results table-list-bottom-text">
 
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="address" class="user-details-label">Teléfono:</label>
-				</div>
-				<input type="text" class="input-text">
 			</div>
 		</div>
 
-		<div class="user-details-box-row">
+		<div class="table-list-column" onclick="ShowRows(this)">
 
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="password" class="user-details-label">Contraseña:</label>
-				</div>
-				<input type="password" class="input-text">
+			<div class="table-list-title">
+				<p>Transportador</p>
+			</div>
+			<div class="table-list-row">
+				<p>EDGAR RAMIREZ</p>
+			</div>
+			<div class="table-list-row">
+				<p>SEBASTIAN AGUIRRE</p>
+			</div>
+			<div class="table-list-row">
+				<p>EDGAR RAMIREZ</p>
+			</div>
+			<div class="table-list-row">
+				<p>EDGAR RAMIREZ</p>
+			</div>
+			<div class="table-list-row">
+				<p>EDGAR RAMIREZ</p>
+			</div>
+			<div class="table-list-row">
+				<p>SEBASTIAN AGUIRRE</p>
+			</div>
+			<div class="table-list-row">
+				<p>CESAR RAMIREZ</p>
+			</div>
+			<div class="table-list-row">
+				<p>EDGAR RAMIREZ</p>
+			</div>
+			<div class="table-list-row">
+				<p>EDGAR RAMIREZ</p>
+			</div>
+			<div class="table-list-row">
+				<p>JUAN D.OSORIO</p>
 			</div>
 
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="bodega" class="user-details-label">Bodega:</label>
-				</div>
-				<select name="bodega" class="input-text">
-					<option value="admin" class="input-text">admin</option>
-					<option value="asutienda" class="input-text">ASUTIENDA</option>
-				</select>
+			<div class="lis-results table-list-bottom-text">
+
 			</div>
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="rol" class="user-details-label">rol:</label>
-				</div>
-				<select name="rol" class="input-text" disabled>
-					<option value="general" class="input-text">General</option>
-				</select>
-			</div>
-
-
 		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Valor</p>
+			</div>
+			<div class="table-list-row">
+				<p>500,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>2,057,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>444,200.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>600,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>400,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>156,800.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>700,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>500,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>4,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>3,000.00</p>
+			</div>
+			<div class="lis-results table-list-bottom-text">
+				<p>5,365,000.00</p>
+			</div>
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Abonos</p>
+			</div>
+			<div class="table-list-row">
+				<p>500,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>0.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>0.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>600,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>400,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>0.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>400,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>500,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>4,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>3,000.00</p>
+			</div>
+			<div class="lis-results table-list-bottom-text">
+				<p>2,407,000.00</p>
+			</div>
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Saldo</p>
+			</div>
+			<div class="table-list-row">
+				<p>0.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>2,057,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>444,200.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>0.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>0.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>156,800.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>300,000.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>0.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>0.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>0.00</p>
+			</div>
+			<div class="lis-results table-list-bottom-text">
+				<p>2,958,000.00</p>
+			</div>
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Fecha</p>
+			</div>
+			<div class="table-list-row">
+				<p>2017-11-24</p>
+			</div>
+			<div class="table-list-row">
+				<p>2017-11-18</p>
+			</div>
+			<div class="table-list-row">
+				<p>2017-11-18</p>
+			</div>
+			<div class="table-list-row">
+				<p>2017-11-17</p>
+			</div>
+			<div class="table-list-row">
+				<p>2017-11-16</p>
+			</div>
+			<div class="table-list-row">
+				<p>2017-11-11</p>
+			</div>
+			<div class="table-list-row">
+				<p>2017-11-10</p>
+			</div>
+			<div class="table-list-row">
+				<p>2017-11-02</p>
+			</div>
+			<div class="table-list-row">
+				<p>2017-10-26</p>
+			</div>
+			<div class="table-list-row">
+				<p>2017-10-26</p>
+			</div>
+			<div class="lis-results table-list-bottom-text">
+
+			</div>
+		</div>
+
+
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Detalle</p>
+			</div>
+			<div class="table-list-row result entered">
+				<img src="../images/tableIcons/up.png" alt="">
+			</div>
+			<div class="table-list-row result completed">
+				<img src="../images/tableIcons/up.png" alt="">
+			</div>
+			<div class="table-list-row result completed">
+				<img src="../images/tableIcons/up.png" alt="">
+			</div>
+			<div class="table-list-row result completed">
+				<img src="../images/tableIcons/up.png" alt="">
+			</div>
+			<div class="table-list-row result completed">
+				<img src="../images/tableIcons/up.png" alt="">
+			</div>
+			<div class="table-list-row result completed">
+				<img src="../images/tableIcons/up.png" alt="">
+			</div>
+			<div class="table-list-row result completed">
+				<img src="../images/tableIcons/up.png" alt="">
+			</div>
+			<div class="table-list-row result completed">
+				<img src="../images/tableIcons/up.png" alt="">
+			</div>
+			<div class="table-list-row result completed">
+				<img src="../images/tableIcons/up.png" alt="">
+			</div>
+			<div class="table-list-row result completed">
+				<img src="../images/tableIcons/up.png" alt="">
+			</div>
+			<div class="lis-results table-list-bottom-text">
+
+			</div>
+		</div>
+
 
 	</div>
+
+	<div class="change-page">
+		<div class="change-page-sep">
+			<p>Pagina</p>
+		</div>
+
+		<input type="text" class="change-page-buton">
+
+		<div class="change-page-sep">
+			<p>/57</p>
+		</div>
+
+		<div class="change-page-sep">
+			<p>Por pagina:</p>
+		</div>
+
+		<select name="for-page" id="" class="change-page-buton change-page-select">
+			<option value="10">10</option>
+			<option selected="selected" value="30">30</option>
+			<option value="50">50</option>
+			<option value="100">100</option>
+			<option value="100000">Todos</option>
+		</select>
+
+		<div class="change-page-sep">
+			<p>(1 - 30 of 1689)</p>
+		</div>
+		<div class="change-page-img">
+			<img src="../images/iconsSup/btn_next.jpg " alt=" ">
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../javascript/tableMobile.js"></script>
 
 </body>
 

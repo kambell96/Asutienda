@@ -9,15 +9,17 @@
 	<link rel="stylesheet" href="../css/font-awesome.min.css">
 	<link rel="stylesheet" href="../css/topBar.css">
 	<link rel="stylesheet" href="../css/resetStyles.css">
-	<link rel="stylesheet" href="../css/general.css">
 	<link rel="stylesheet" href="../css/iconsSup.css">
 	<link rel="stylesheet" href="../css/titleSup.css">
+	<link rel="stylesheet" href="../css/general.css">
 	<link rel="stylesheet" href="../css/menuMobile.css">
 	<script type="text/javascript" src="../javascript/menuMobile.js"></script>
-	<title>::Maestro::</title>
+
+	<title>:: Inventario ::</title>
 </head>
 
 <body>
+
 
 
 	<!-- aqui comienza el menu en mobile con el sub menu-->
@@ -167,9 +169,10 @@
 	<!-- aqui termina el menu en mobile con el sub menu-->
 
 
+
 	<div class="top-bar-container">
 		<div class="top-bar-left-side">
-			<p>::Maestro::</p>
+			<p>::Panel de control::</p>
 		</div>
 		<div class="top-bar-right-side">
 			<div class="top-bar-right-side-separation">
@@ -199,6 +202,7 @@
 		</div>
 
 	</div>
+
 	<div class="navigation-bar-container">
 		<div class="navigation-bar-row">
 			<a href="#" class="navigation-bar-title">Maestro</a>
@@ -312,84 +316,342 @@
 
 	<div class="principal-title-icons-container">
 
+
 		<div class="module-icons-bar-images">
-			<img src="../images/iconsSup/save.png" alt="">
+			<img src="../images/iconsSup/search.png" alt="">
+			<img src="../images/iconsSup/all.png" alt="">
+			<img src="../images/iconsSup/Export2.png" alt="">
 		</div>
 
 		<div class="principal-title titles-color">
-			<h1>Detalles del usuario</h1>
+			<h1>Listado de ajustes de inventario</h1>
 		</div>
 
 	</div>
 
+	<div class="change-page">
+		<div class="change-page-sep">
+			<p>Pagina</p>
+		</div>
 
+		<input type="text" class="change-page-buton">
 
-	<div class="module-content-container">
+		<div class="change-page-sep">
+			<p>/57</p>
+		</div>
 
+		<div class="change-page-sep">
+			<p>Por pagina:</p>
+		</div>
 
-		<div class="user-details-box-row">
+		<select name="for-page" id="" class="change-page-buton change-page-select">
+			<option value="10">10</option>
+			<option selected="selected" value="30">30</option>
+			<option value="50">50</option>
+			<option value="100">100</option>
+			<option value="100000">Todos</option>
+		</select>
 
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="cedula" class="user-details-label label-sepa">Cedula:</label>
-				</div>
-				<input type="text" class="input-text">
+		<div class="change-page-sep">
+			<p>(1 - 30 of 1689)</p>
+		</div>
+		<div class="change-page-img">
+			<img src="../images/iconsSup/btn_next.jpg " alt=" ">
+		</div>
+	</div>
+
+	<div class="list-container">
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Fecha</p>
+			</div>
+			<div class="table-list-row">
+				<p>2012-01-26</p>
+			</div>
+			<div class="table-list-row">
+				<p>2012-01-26</p>
+			</div>
+			<div class="table-list-row">
+				<p>2012-02-02</p>
+			</div>
+			<div class="table-list-row">
+				<p>2012-02-02</p>
+			</div>
+			<div class="table-list-row">
+				<p>2012-02-02</p>
+			</div>
+			<div class="table-list-row">
+				<p>2012-04-24</p>
+			</div>
+			<div class="table-list-row">
+				<p>2012-04-24</p>
+			</div>
+			<div class="table-list-row">
+				<p>2012-04-24</p>
+			</div>
+			<div class="table-list-row">
+				<p>2012-04-24</p>
+			</div>
+			<div class="table-list-row">
+				<p>2012-05-02</p>
 			</div>
 
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="name" class="user-details-label">Nombre:</label>
-				</div>
-				<input type="text" class="input-text">
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Codigo</p>
+			</div>
+			<div class="table-list-row">
+				<p>3032028</p>
+			</div>
+			<div class="table-list-row">
+				<p>3030013</p>
+			</div>
+			<div class="table-list-row">
+				<p>44021</p>
+			</div>
+			<div class="table-list-row">
+				<p>6014109</p>
+			</div>
+			<div class="table-list-row">
+				<p>6014107</p>
+			</div>
+			<div class="table-list-row">
+				<p>417681</p>
+			</div>
+			<div class="table-list-row">
+				<p>3036450</p>
+			</div>
+			<div class="table-list-row">
+				<p>3036450</p>
+			</div>
+			<div class="table-list-row">
+				<p>95014</p>
+			</div>
+			<div class="table-list-row">
+				<p>95347</p>
 			</div>
 
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="number-phone" class="user-details-label">Dirección:</label>
-				</div>
-				<input type="text" class="input-text">
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Nombre</p>
+			</div>
+			<div class="table-list-row">
+				<p>6 AROMAS SURTIDO</p>
+			</div>
+			<div class="table-list-row">
+				<p>6 BLANCOX PODER NATURAL</p>
+			</div>
+			<div class="table-list-row">
+				<p>6 PLUS + LOTERO NORMAL</p>
+			</div>
+			<div class="table-list-row">
+				<p>MARG PREFERIDA 20 UN X125</p>
+			</div>
+			<div class="table-list-row">
+				<p>MARG PREFERIDA 4 UN X 125</p>
+			</div>
+			<div class="table-list-row">
+				<p>PAÑAL PEQUEÑIN ETAPA 2 X 60 FASADO</p>
+			</div>
+			<div class="table-list-row">
+				<p>PEQ TRIPACK ET 4 FASADO</p>
+			</div>
+			<div class="table-list-row">
+				<p>6 PLUS + LOTERO NORMAL</p>
+			</div>
+			<div class="table-list-row">
+				<p>RC RNUEVAX200 +QUITAMAN</p>
+			</div>
+			<div class="table-list-row">
+				<p>RC RNUEVAX200 +QUITAMAN</p>
 			</div>
 
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="address" class="user-details-label">Teléfono:</label>
-				</div>
-				<input type="text" class="input-text">
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Costo</p>
+			</div>
+			<div class="table-list-row">
+				<p>4,635.30</p>
+			</div>
+			<div class="table-list-row">
+				<p>1,852.81</p>
+			</div>
+			<div class="table-list-row">
+				<p>2,954.69</p>
+			</div>
+			<div class="table-list-row">
+				<p>2,426.85</p>
+			</div>
+			<div class="table-list-row">
+				<p>12,364.75</p>
+			</div>
+			<div class="table-list-row">
+				<p>0.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>5,674.08</p>
+			</div>
+			<div class="table-list-row">
+				<p>5,674.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>1,483.51</p>
+			</div>
+			<div class="table-list-row">
+				<p>15,261.32</p>
+			</div>
+
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Nuevo costo</p>
+			</div>
+			<div class="table-list-row">
+				<p>4,635.30</p>
+			</div>
+			<div class="table-list-row">
+				<p>4,028.50</p>
+			</div>
+			<div class="table-list-row">
+				<p>2,825.50</p>
+			</div>
+			<div class="table-list-row">
+				<p>12,134.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>2,473.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>12,222.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>5,674.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>5,674.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>1,190.00</p>
+			</div>
+			<div class="table-list-row">
+				<p>12,854.00</p>
+			</div>
+
+		</div>
+
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Comentarios</p>
+			</div>
+			<div class="table-list-row">
+				<p>ERROR EN COMPRA 569205</p>
+			</div>
+			<div class="table-list-row">
+				<p>ERROR EN COMPRA 569205</p>
+			</div>
+			<div class="table-list-row">
+				<p>ERROR EN COSTO EN COMPRA X CAMBIO DE CODIGO Y EMBALAJE</p>
+			</div>
+			<div class="table-list-row">
+				<p>error en costos al embalaje de entrada arregla milena</p>
+			</div>
+			<div class="table-list-row">
+				<p>arreglo costo milena error en embalaje de entrada</p>
+			</div>
+			<div class="table-list-row">
+				<p>ARREGLO COSTO MALO</p>
+			</div>
+			<div class="table-list-row">
+
+			</div>
+			<div class="table-list-row">
+
+			</div>
+			<div class="table-list-row">
+
+			</div>
+			<div class="table-list-row">
+
 			</div>
 		</div>
 
-		<div class="user-details-box-row">
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="password" class="user-details-label">Contraseña:</label>
-				</div>
-				<input type="password" class="input-text">
+		<div class="table-list-column" onclick="ShowRows(this)">
+			<div class="table-list-title">
+				<p>Usuario</p>
 			</div>
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="bodega" class="user-details-label">Bodega:</label>
-				</div>
-				<select name="bodega" class="input-text">
-					<option value="admin" class="input-text">admin</option>
-					<option value="asutienda" class="input-text">ASUTIENDA</option>
-				</select>
+			<div class="table-list-row">
+				<p>milena chaves</p>
 			</div>
-
-			<div class="user-details-box-row-internal">
-				<div class="label-space">
-					<label for="rol" class="user-details-label">rol:</label>
-				</div>
-				<select name="rol" class="input-text" disabled>
-					<option value="general" class="input-text">General</option>
-				</select>
+			<div class="table-list-row">
+				<p>milena chaves</p>
 			</div>
-
-
+			<div class="table-list-row">
+				<p>milena chaves</p>
+			</div>
+			<div class="table-list-row">
+				<p>milena chaves</p>
+			</div>
+			<div class="table-list-row">
+				<p>milena chaves</p>
+			</div>
+			<div class="table-list-row">
+				<p>milena chaves</p>
+			</div>
+			<div class="table-list-row">
+				<p>milena chaves</p>
+			</div>
+			<div class="table-list-row">
+				<p>milena chaves</p>
+			</div>
+			<div class="table-list-row">
+				<p>milena chaves</p>
+			</div>
+			<div class="table-list-row">
+				<p>milena chaves</p>
+			</div>
 		</div>
 
 	</div>
+
+	<div class="change-page">
+		<div class="change-page-sep">
+			<p>Pagina</p>
+		</div>
+
+		<input type="text" class="change-page-buton">
+
+		<div class="change-page-sep">
+			<p>/57</p>
+		</div>
+
+		<div class="change-page-sep">
+			<p>Por pagina:</p>
+		</div>
+
+		<select name="for-page" id="" class="change-page-buton change-page-select">
+			<option value="10">10</option>
+			<option selected="selected" value="30">30</option>
+			<option value="50">50</option>
+			<option value="100">100</option>
+			<option value="100000">Todos</option>
+		</select>
+
+		<div class="change-page-sep">
+			<p>(1 - 30 of 1689)</p>
+		</div>
+		<div class="change-page-img">
+			<img src="../images/iconsSup/btn_next.jpg " alt=" ">
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../javascript/tableMobile.js"></script>
 
 </body>
 
