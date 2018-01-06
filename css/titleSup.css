@@ -40,6 +40,7 @@
 	.principal-title{
 		padding-bottom: 10px;
 		width: 95%;
+    justify-content: flex-start;
 	}
 
 	.principal-title h1 {

@@ -109,7 +109,7 @@ select.input-text {
     width: 90%;
   }
 
-  .user-details-box-row-label-space {
+  .user-details-box-row-label-space,.label-space {
     width: 100%;
     height: auto;
     padding-bottom: 5px;
